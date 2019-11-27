@@ -1,0 +1,4030 @@
+EESchema Schematic File Version 4
+LIBS:keyboard_seventy-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5DDD3425
+P 4000 2700
+F 0 "U1" H 4000 811 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 4000 720 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4000 2700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5DDDEE47
+P 1300 6400
+F 0 "SW2" H 1300 6685 50  0000 C CNN
+F 1 "SW_Push" H 1300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 6600 50  0001 C CNN
+F 3 "~" H 1300 6600 50  0001 C CNN
+	1    1300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5DDE7736
+P 1650 6400
+F 0 "D1" H 1650 6184 50  0000 C CNN
+F 1 "D" H 1650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 6400 50  0001 C CNN
+F 3 "~" H 1650 6400 50  0001 C CNN
+	1    1650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5DDEF8A6
+P 1300 6850
+F 0 "SW17" H 1300 7135 50  0000 C CNN
+F 1 "SW_Push" H 1300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 7050 50  0001 C CNN
+F 3 "~" H 1300 7050 50  0001 C CNN
+	1    1300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5DDEF8AC
+P 1650 6850
+F 0 "D16" H 1650 6634 50  0000 C CNN
+F 1 "D" H 1650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 6850 50  0001 C CNN
+F 3 "~" H 1650 6850 50  0001 C CNN
+	1    1650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5DDF06BC
+P 1300 7300
+F 0 "SW32" H 1300 7585 50  0000 C CNN
+F 1 "SW_Push" H 1300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 7500 50  0001 C CNN
+F 3 "~" H 1300 7500 50  0001 C CNN
+	1    1300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5DDF06C2
+P 1650 7300
+F 0 "D31" H 1650 7084 50  0000 C CNN
+F 1 "D" H 1650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 7300 50  0001 C CNN
+F 3 "~" H 1650 7300 50  0001 C CNN
+	1    1650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW47
+U 1 1 5DDF122A
+P 1300 7750
+F 0 "SW47" H 1300 8035 50  0000 C CNN
+F 1 "SW_Push" H 1300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 7950 50  0001 C CNN
+F 3 "~" H 1300 7950 50  0001 C CNN
+	1    1300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5DDF1230
+P 1650 7750
+F 0 "D46" H 1650 7534 50  0000 C CNN
+F 1 "D" H 1650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 7750 50  0001 C CNN
+F 3 "~" H 1650 7750 50  0001 C CNN
+	1    1650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW62
+U 1 1 5DDF274C
+P 1300 8200
+F 0 "SW62" H 1300 8485 50  0000 C CNN
+F 1 "SW_Push" H 1300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 8400 50  0001 C CNN
+F 3 "~" H 1300 8400 50  0001 C CNN
+	1    1300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 5DDF2752
+P 1650 8200
+F 0 "D61" H 1650 7984 50  0000 C CNN
+F 1 "D" H 1650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 8200 50  0001 C CNN
+F 3 "~" H 1650 8200 50  0001 C CNN
+	1    1650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 6400 1800 6850
+Connection ~ 1800 6850
+Wire Wire Line
+	1800 6850 1800 7300
+Connection ~ 1800 7300
+Wire Wire Line
+	1800 7300 1800 7750
+Connection ~ 1800 7750
+Wire Wire Line
+	1800 7750 1800 8200
+Text GLabel 1800 5650 0    50   Input ~ 0
+COL1
+Wire Wire Line
+	1800 5650 1800 6400
+Connection ~ 1800 6400
+Text GLabel 1000 6050 0    50   Input ~ 0
+ROW1
+Text GLabel 1000 6500 0    50   Input ~ 0
+ROW2
+Text GLabel 1000 6950 0    50   Input ~ 0
+ROW3
+Text GLabel 1000 7400 0    50   Input ~ 0
+ROW4
+Text GLabel 1000 7850 0    50   Input ~ 0
+ROW5
+Text GLabel 1000 8350 0    50   Input ~ 0
+ROW6
+Wire Wire Line
+	1000 6050 1100 6050
+Wire Wire Line
+	1100 6050 1100 6400
+Wire Wire Line
+	1000 6500 1100 6500
+Wire Wire Line
+	1100 6500 1100 6850
+Wire Wire Line
+	1000 6950 1100 6950
+Wire Wire Line
+	1100 6950 1100 7300
+Wire Wire Line
+	1000 7400 1100 7400
+Wire Wire Line
+	1100 7400 1100 7750
+Wire Wire Line
+	1000 7850 1100 7850
+Wire Wire Line
+	1100 7850 1100 8200
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5DE1DB3E
+P 2300 6400
+F 0 "SW3" H 2300 6685 50  0000 C CNN
+F 1 "SW_Push" H 2300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 6600 50  0001 C CNN
+F 3 "~" H 2300 6600 50  0001 C CNN
+	1    2300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5DE1DB44
+P 2650 6400
+F 0 "D2" H 2650 6184 50  0000 C CNN
+F 1 "D" H 2650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 6400 50  0001 C CNN
+F 3 "~" H 2650 6400 50  0001 C CNN
+	1    2650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5DE1DB4A
+P 2300 6850
+F 0 "SW18" H 2300 7135 50  0000 C CNN
+F 1 "SW_Push" H 2300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 7050 50  0001 C CNN
+F 3 "~" H 2300 7050 50  0001 C CNN
+	1    2300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5DE1DB50
+P 2650 6850
+F 0 "D17" H 2650 6634 50  0000 C CNN
+F 1 "D" H 2650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 6850 50  0001 C CNN
+F 3 "~" H 2650 6850 50  0001 C CNN
+	1    2650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5DE1DB56
+P 2300 7300
+F 0 "SW33" H 2300 7585 50  0000 C CNN
+F 1 "SW_Push" H 2300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 7500 50  0001 C CNN
+F 3 "~" H 2300 7500 50  0001 C CNN
+	1    2300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5DE1DB5C
+P 2650 7300
+F 0 "D32" H 2650 7084 50  0000 C CNN
+F 1 "D" H 2650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 7300 50  0001 C CNN
+F 3 "~" H 2650 7300 50  0001 C CNN
+	1    2650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 5DE1DB62
+P 2300 7750
+F 0 "SW48" H 2300 8035 50  0000 C CNN
+F 1 "SW_Push" H 2300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 7950 50  0001 C CNN
+F 3 "~" H 2300 7950 50  0001 C CNN
+	1    2300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5DE1DB68
+P 2650 7750
+F 0 "D47" H 2650 7534 50  0000 C CNN
+F 1 "D" H 2650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 7750 50  0001 C CNN
+F 3 "~" H 2650 7750 50  0001 C CNN
+	1    2650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW63
+U 1 1 5DE1DB6E
+P 2300 8200
+F 0 "SW63" H 2300 8485 50  0000 C CNN
+F 1 "SW_Push" H 2300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 8400 50  0001 C CNN
+F 3 "~" H 2300 8400 50  0001 C CNN
+	1    2300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 5DE1DB74
+P 2650 8200
+F 0 "D62" H 2650 7984 50  0000 C CNN
+F 1 "D" H 2650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 8200 50  0001 C CNN
+F 3 "~" H 2650 8200 50  0001 C CNN
+	1    2650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 6400 2800 6850
+Connection ~ 2800 6850
+Wire Wire Line
+	2800 6850 2800 7300
+Connection ~ 2800 7300
+Wire Wire Line
+	2800 7300 2800 7750
+Connection ~ 2800 7750
+Wire Wire Line
+	2800 7750 2800 8200
+Text GLabel 2800 5650 0    50   Input ~ 0
+COL2
+Wire Wire Line
+	2800 5650 2800 6400
+Connection ~ 2800 6400
+Wire Wire Line
+	2100 6050 2100 6400
+Wire Wire Line
+	2100 6500 2100 6850
+Wire Wire Line
+	2100 6950 2100 7300
+Wire Wire Line
+	2100 7400 2100 7750
+Wire Wire Line
+	2100 7850 2100 8200
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5DE2A421
+P 3300 6400
+F 0 "SW4" H 3300 6685 50  0000 C CNN
+F 1 "SW_Push" H 3300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 6600 50  0001 C CNN
+F 3 "~" H 3300 6600 50  0001 C CNN
+	1    3300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5DE2A427
+P 3650 6400
+F 0 "D3" H 3650 6184 50  0000 C CNN
+F 1 "D" H 3650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 6400 50  0001 C CNN
+F 3 "~" H 3650 6400 50  0001 C CNN
+	1    3650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5DE2A42D
+P 3300 6850
+F 0 "SW19" H 3300 7135 50  0000 C CNN
+F 1 "SW_Push" H 3300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 7050 50  0001 C CNN
+F 3 "~" H 3300 7050 50  0001 C CNN
+	1    3300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5DE2A433
+P 3650 6850
+F 0 "D18" H 3650 6634 50  0000 C CNN
+F 1 "D" H 3650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 6850 50  0001 C CNN
+F 3 "~" H 3650 6850 50  0001 C CNN
+	1    3650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5DE2A439
+P 3300 7300
+F 0 "SW34" H 3300 7585 50  0000 C CNN
+F 1 "SW_Push" H 3300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 7500 50  0001 C CNN
+F 3 "~" H 3300 7500 50  0001 C CNN
+	1    3300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5DE2A43F
+P 3650 7300
+F 0 "D33" H 3650 7084 50  0000 C CNN
+F 1 "D" H 3650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 7300 50  0001 C CNN
+F 3 "~" H 3650 7300 50  0001 C CNN
+	1    3650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 5DE2A445
+P 3300 7750
+F 0 "SW49" H 3300 8035 50  0000 C CNN
+F 1 "SW_Push" H 3300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 7950 50  0001 C CNN
+F 3 "~" H 3300 7950 50  0001 C CNN
+	1    3300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5DE2A44B
+P 3650 7750
+F 0 "D48" H 3650 7534 50  0000 C CNN
+F 1 "D" H 3650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 7750 50  0001 C CNN
+F 3 "~" H 3650 7750 50  0001 C CNN
+	1    3650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW64
+U 1 1 5DE2A451
+P 3300 8200
+F 0 "SW64" H 3300 8485 50  0000 C CNN
+F 1 "SW_Push" H 3300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 8400 50  0001 C CNN
+F 3 "~" H 3300 8400 50  0001 C CNN
+	1    3300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 5DE2A457
+P 3650 8200
+F 0 "D63" H 3650 7984 50  0000 C CNN
+F 1 "D" H 3650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 8200 50  0001 C CNN
+F 3 "~" H 3650 8200 50  0001 C CNN
+	1    3650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 6400 3800 6850
+Connection ~ 3800 6850
+Wire Wire Line
+	3800 6850 3800 7300
+Connection ~ 3800 7300
+Wire Wire Line
+	3800 7300 3800 7750
+Connection ~ 3800 7750
+Wire Wire Line
+	3800 7750 3800 8200
+Text GLabel 3800 5650 0    50   Input ~ 0
+COL3
+Wire Wire Line
+	3800 5650 3800 6400
+Connection ~ 3800 6400
+Wire Wire Line
+	3100 6050 3100 6400
+Wire Wire Line
+	3100 6500 3100 6850
+Wire Wire Line
+	3100 6950 3100 7300
+Wire Wire Line
+	3100 7400 3100 7750
+Wire Wire Line
+	3100 7850 3100 8200
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5DE3609A
+P 4300 6400
+F 0 "SW5" H 4300 6685 50  0000 C CNN
+F 1 "SW_Push" H 4300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 6600 50  0001 C CNN
+F 3 "~" H 4300 6600 50  0001 C CNN
+	1    4300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5DE360A0
+P 4650 6400
+F 0 "D4" H 4650 6184 50  0000 C CNN
+F 1 "D" H 4650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 6400 50  0001 C CNN
+F 3 "~" H 4650 6400 50  0001 C CNN
+	1    4650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5DE360A6
+P 4300 6850
+F 0 "SW20" H 4300 7135 50  0000 C CNN
+F 1 "SW_Push" H 4300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 7050 50  0001 C CNN
+F 3 "~" H 4300 7050 50  0001 C CNN
+	1    4300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5DE360AC
+P 4650 6850
+F 0 "D19" H 4650 6634 50  0000 C CNN
+F 1 "D" H 4650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 6850 50  0001 C CNN
+F 3 "~" H 4650 6850 50  0001 C CNN
+	1    4650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5DE360B2
+P 4300 7300
+F 0 "SW35" H 4300 7585 50  0000 C CNN
+F 1 "SW_Push" H 4300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 7500 50  0001 C CNN
+F 3 "~" H 4300 7500 50  0001 C CNN
+	1    4300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5DE360B8
+P 4650 7300
+F 0 "D34" H 4650 7084 50  0000 C CNN
+F 1 "D" H 4650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 7300 50  0001 C CNN
+F 3 "~" H 4650 7300 50  0001 C CNN
+	1    4650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5DE360BE
+P 4300 7750
+F 0 "SW50" H 4300 8035 50  0000 C CNN
+F 1 "SW_Push" H 4300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 7950 50  0001 C CNN
+F 3 "~" H 4300 7950 50  0001 C CNN
+	1    4300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 5DE360C4
+P 4650 7750
+F 0 "D49" H 4650 7534 50  0000 C CNN
+F 1 "D" H 4650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 7750 50  0001 C CNN
+F 3 "~" H 4650 7750 50  0001 C CNN
+	1    4650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW65
+U 1 1 5DE360CA
+P 4300 8200
+F 0 "SW65" H 4300 8485 50  0000 C CNN
+F 1 "SW_Push" H 4300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 8400 50  0001 C CNN
+F 3 "~" H 4300 8400 50  0001 C CNN
+	1    4300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 5DE360D0
+P 4650 8200
+F 0 "D64" H 4650 7984 50  0000 C CNN
+F 1 "D" H 4650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 8200 50  0001 C CNN
+F 3 "~" H 4650 8200 50  0001 C CNN
+	1    4650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 6400 4800 6850
+Connection ~ 4800 6850
+Wire Wire Line
+	4800 6850 4800 7300
+Connection ~ 4800 7300
+Wire Wire Line
+	4800 7300 4800 7750
+Connection ~ 4800 7750
+Wire Wire Line
+	4800 7750 4800 8200
+Text GLabel 4800 5650 0    50   Input ~ 0
+COL4
+Wire Wire Line
+	4800 5650 4800 6400
+Connection ~ 4800 6400
+Wire Wire Line
+	4100 6050 4100 6400
+Wire Wire Line
+	4100 6500 4100 6850
+Wire Wire Line
+	4100 6950 4100 7300
+Wire Wire Line
+	4100 7400 4100 7750
+Wire Wire Line
+	4100 7850 4100 8200
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5DE42566
+P 5300 6400
+F 0 "SW6" H 5300 6685 50  0000 C CNN
+F 1 "SW_Push" H 5300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 6600 50  0001 C CNN
+F 3 "~" H 5300 6600 50  0001 C CNN
+	1    5300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5DE4256C
+P 5650 6400
+F 0 "D5" H 5650 6184 50  0000 C CNN
+F 1 "D" H 5650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 6400 50  0001 C CNN
+F 3 "~" H 5650 6400 50  0001 C CNN
+	1    5650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5DE42572
+P 5300 6850
+F 0 "SW21" H 5300 7135 50  0000 C CNN
+F 1 "SW_Push" H 5300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 7050 50  0001 C CNN
+F 3 "~" H 5300 7050 50  0001 C CNN
+	1    5300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5DE42578
+P 5650 6850
+F 0 "D20" H 5650 6634 50  0000 C CNN
+F 1 "D" H 5650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 6850 50  0001 C CNN
+F 3 "~" H 5650 6850 50  0001 C CNN
+	1    5650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5DE4257E
+P 5300 7300
+F 0 "SW36" H 5300 7585 50  0000 C CNN
+F 1 "SW_Push" H 5300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 7500 50  0001 C CNN
+F 3 "~" H 5300 7500 50  0001 C CNN
+	1    5300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5DE42584
+P 5650 7300
+F 0 "D35" H 5650 7084 50  0000 C CNN
+F 1 "D" H 5650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 7300 50  0001 C CNN
+F 3 "~" H 5650 7300 50  0001 C CNN
+	1    5650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 5DE4258A
+P 5300 7750
+F 0 "SW51" H 5300 8035 50  0000 C CNN
+F 1 "SW_Push" H 5300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 7950 50  0001 C CNN
+F 3 "~" H 5300 7950 50  0001 C CNN
+	1    5300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 5DE42590
+P 5650 7750
+F 0 "D50" H 5650 7534 50  0000 C CNN
+F 1 "D" H 5650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 7750 50  0001 C CNN
+F 3 "~" H 5650 7750 50  0001 C CNN
+	1    5650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW66
+U 1 1 5DE42596
+P 5300 8200
+F 0 "SW66" H 5300 8485 50  0000 C CNN
+F 1 "SW_Push" H 5300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 8400 50  0001 C CNN
+F 3 "~" H 5300 8400 50  0001 C CNN
+	1    5300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 5DE4259C
+P 5650 8200
+F 0 "D65" H 5650 7984 50  0000 C CNN
+F 1 "D" H 5650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 8200 50  0001 C CNN
+F 3 "~" H 5650 8200 50  0001 C CNN
+	1    5650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 6400 5800 6850
+Connection ~ 5800 6850
+Wire Wire Line
+	5800 6850 5800 7300
+Connection ~ 5800 7300
+Wire Wire Line
+	5800 7300 5800 7750
+Connection ~ 5800 7750
+Wire Wire Line
+	5800 7750 5800 8200
+Text GLabel 5800 5650 0    50   Input ~ 0
+COL5
+Wire Wire Line
+	5800 5650 5800 6400
+Connection ~ 5800 6400
+Wire Wire Line
+	5100 6050 5100 6400
+Wire Wire Line
+	5100 6500 5100 6850
+Wire Wire Line
+	5100 6950 5100 7300
+Wire Wire Line
+	5100 7400 5100 7750
+Wire Wire Line
+	5100 7850 5100 8200
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5DE4B790
+P 6300 6400
+F 0 "SW7" H 6300 6685 50  0000 C CNN
+F 1 "SW_Push" H 6300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 6600 50  0001 C CNN
+F 3 "~" H 6300 6600 50  0001 C CNN
+	1    6300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5DE4B796
+P 6650 6400
+F 0 "D6" H 6650 6184 50  0000 C CNN
+F 1 "D" H 6650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 6400 50  0001 C CNN
+F 3 "~" H 6650 6400 50  0001 C CNN
+	1    6650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5DE4B79C
+P 6300 6850
+F 0 "SW22" H 6300 7135 50  0000 C CNN
+F 1 "SW_Push" H 6300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 7050 50  0001 C CNN
+F 3 "~" H 6300 7050 50  0001 C CNN
+	1    6300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5DE4B7A2
+P 6650 6850
+F 0 "D21" H 6650 6634 50  0000 C CNN
+F 1 "D" H 6650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 6850 50  0001 C CNN
+F 3 "~" H 6650 6850 50  0001 C CNN
+	1    6650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5DE4B7A8
+P 6300 7300
+F 0 "SW37" H 6300 7585 50  0000 C CNN
+F 1 "SW_Push" H 6300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 7500 50  0001 C CNN
+F 3 "~" H 6300 7500 50  0001 C CNN
+	1    6300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5DE4B7AE
+P 6650 7300
+F 0 "D36" H 6650 7084 50  0000 C CNN
+F 1 "D" H 6650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 7300 50  0001 C CNN
+F 3 "~" H 6650 7300 50  0001 C CNN
+	1    6650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW52
+U 1 1 5DE4B7B4
+P 6300 7750
+F 0 "SW52" H 6300 8035 50  0000 C CNN
+F 1 "SW_Push" H 6300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 7950 50  0001 C CNN
+F 3 "~" H 6300 7950 50  0001 C CNN
+	1    6300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5DE4B7BA
+P 6650 7750
+F 0 "D51" H 6650 7534 50  0000 C CNN
+F 1 "D" H 6650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 7750 50  0001 C CNN
+F 3 "~" H 6650 7750 50  0001 C CNN
+	1    6650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW67
+U 1 1 5DE4B7C0
+P 6300 8200
+F 0 "SW67" H 6300 8485 50  0000 C CNN
+F 1 "SW_Push" H 6300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 8400 50  0001 C CNN
+F 3 "~" H 6300 8400 50  0001 C CNN
+	1    6300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 5DE4B7C6
+P 6650 8200
+F 0 "D66" H 6650 7984 50  0000 C CNN
+F 1 "D" H 6650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 8200 50  0001 C CNN
+F 3 "~" H 6650 8200 50  0001 C CNN
+	1    6650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 6400 6800 6850
+Connection ~ 6800 6850
+Wire Wire Line
+	6800 6850 6800 7300
+Connection ~ 6800 7300
+Wire Wire Line
+	6800 7300 6800 7750
+Connection ~ 6800 7750
+Wire Wire Line
+	6800 7750 6800 8200
+Text GLabel 6800 5650 0    50   Input ~ 0
+COL6
+Wire Wire Line
+	6800 5650 6800 6400
+Connection ~ 6800 6400
+Wire Wire Line
+	6100 6050 6100 6400
+Wire Wire Line
+	6100 6500 6100 6850
+Wire Wire Line
+	6100 6950 6100 7300
+Wire Wire Line
+	6100 7400 6100 7750
+Wire Wire Line
+	6100 7850 6100 8200
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5DE5930F
+P 7300 6400
+F 0 "SW8" H 7300 6685 50  0000 C CNN
+F 1 "SW_Push" H 7300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 6600 50  0001 C CNN
+F 3 "~" H 7300 6600 50  0001 C CNN
+	1    7300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5DE59315
+P 7650 6400
+F 0 "D7" H 7650 6184 50  0000 C CNN
+F 1 "D" H 7650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 6400 50  0001 C CNN
+F 3 "~" H 7650 6400 50  0001 C CNN
+	1    7650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5DE5931B
+P 7300 6850
+F 0 "SW23" H 7300 7135 50  0000 C CNN
+F 1 "SW_Push" H 7300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 7050 50  0001 C CNN
+F 3 "~" H 7300 7050 50  0001 C CNN
+	1    7300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5DE59321
+P 7650 6850
+F 0 "D22" H 7650 6634 50  0000 C CNN
+F 1 "D" H 7650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 6850 50  0001 C CNN
+F 3 "~" H 7650 6850 50  0001 C CNN
+	1    7650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 5DE59327
+P 7300 7300
+F 0 "SW38" H 7300 7585 50  0000 C CNN
+F 1 "SW_Push" H 7300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 7500 50  0001 C CNN
+F 3 "~" H 7300 7500 50  0001 C CNN
+	1    7300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5DE5932D
+P 7650 7300
+F 0 "D37" H 7650 7084 50  0000 C CNN
+F 1 "D" H 7650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 7300 50  0001 C CNN
+F 3 "~" H 7650 7300 50  0001 C CNN
+	1    7650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 5DE59333
+P 7300 7750
+F 0 "SW53" H 7300 8035 50  0000 C CNN
+F 1 "SW_Push" H 7300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 7950 50  0001 C CNN
+F 3 "~" H 7300 7950 50  0001 C CNN
+	1    7300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 5DE59339
+P 7650 7750
+F 0 "D52" H 7650 7534 50  0000 C CNN
+F 1 "D" H 7650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 7750 50  0001 C CNN
+F 3 "~" H 7650 7750 50  0001 C CNN
+	1    7650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW68
+U 1 1 5DE5933F
+P 7300 8200
+F 0 "SW68" H 7300 8485 50  0000 C CNN
+F 1 "SW_Push" H 7300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 8400 50  0001 C CNN
+F 3 "~" H 7300 8400 50  0001 C CNN
+	1    7300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 5DE59345
+P 7650 8200
+F 0 "D67" H 7650 7984 50  0000 C CNN
+F 1 "D" H 7650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 8200 50  0001 C CNN
+F 3 "~" H 7650 8200 50  0001 C CNN
+	1    7650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 6400 7800 6850
+Connection ~ 7800 6850
+Wire Wire Line
+	7800 6850 7800 7300
+Connection ~ 7800 7300
+Wire Wire Line
+	7800 7300 7800 7750
+Connection ~ 7800 7750
+Wire Wire Line
+	7800 7750 7800 8200
+Text GLabel 7800 5650 0    50   Input ~ 0
+COL7
+Wire Wire Line
+	7800 5650 7800 6400
+Connection ~ 7800 6400
+Wire Wire Line
+	7100 6050 7100 6400
+Wire Wire Line
+	7100 6500 7100 6850
+Wire Wire Line
+	7100 6950 7100 7300
+Wire Wire Line
+	7100 7400 7100 7750
+Wire Wire Line
+	7100 7850 7100 8200
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5DE67F0E
+P 8300 6400
+F 0 "SW9" H 8300 6685 50  0000 C CNN
+F 1 "SW_Push" H 8300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 6600 50  0001 C CNN
+F 3 "~" H 8300 6600 50  0001 C CNN
+	1    8300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5DE67F14
+P 8650 6400
+F 0 "D8" H 8650 6184 50  0000 C CNN
+F 1 "D" H 8650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 6400 50  0001 C CNN
+F 3 "~" H 8650 6400 50  0001 C CNN
+	1    8650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5DE67F1A
+P 8300 6850
+F 0 "SW24" H 8300 7135 50  0000 C CNN
+F 1 "SW_Push" H 8300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 7050 50  0001 C CNN
+F 3 "~" H 8300 7050 50  0001 C CNN
+	1    8300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5DE67F20
+P 8650 6850
+F 0 "D23" H 8650 6634 50  0000 C CNN
+F 1 "D" H 8650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 6850 50  0001 C CNN
+F 3 "~" H 8650 6850 50  0001 C CNN
+	1    8650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 5DE67F26
+P 8300 7300
+F 0 "SW39" H 8300 7585 50  0000 C CNN
+F 1 "SW_Push" H 8300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 7500 50  0001 C CNN
+F 3 "~" H 8300 7500 50  0001 C CNN
+	1    8300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5DE67F2C
+P 8650 7300
+F 0 "D38" H 8650 7084 50  0000 C CNN
+F 1 "D" H 8650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 7300 50  0001 C CNN
+F 3 "~" H 8650 7300 50  0001 C CNN
+	1    8650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 5DE67F32
+P 8300 7750
+F 0 "SW54" H 8300 8035 50  0000 C CNN
+F 1 "SW_Push" H 8300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 7950 50  0001 C CNN
+F 3 "~" H 8300 7950 50  0001 C CNN
+	1    8300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 5DE67F38
+P 8650 7750
+F 0 "D53" H 8650 7534 50  0000 C CNN
+F 1 "D" H 8650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 7750 50  0001 C CNN
+F 3 "~" H 8650 7750 50  0001 C CNN
+	1    8650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW69
+U 1 1 5DE67F3E
+P 8300 8200
+F 0 "SW69" H 8300 8485 50  0000 C CNN
+F 1 "SW_Push" H 8300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 8400 50  0001 C CNN
+F 3 "~" H 8300 8400 50  0001 C CNN
+	1    8300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 5DE67F44
+P 8650 8200
+F 0 "D68" H 8650 7984 50  0000 C CNN
+F 1 "D" H 8650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 8200 50  0001 C CNN
+F 3 "~" H 8650 8200 50  0001 C CNN
+	1    8650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 6400 8800 6850
+Connection ~ 8800 6850
+Wire Wire Line
+	8800 6850 8800 7300
+Connection ~ 8800 7300
+Wire Wire Line
+	8800 7300 8800 7750
+Connection ~ 8800 7750
+Wire Wire Line
+	8800 7750 8800 8200
+Text GLabel 8800 5650 0    50   Input ~ 0
+COL8
+Wire Wire Line
+	8800 5650 8800 6400
+Connection ~ 8800 6400
+Wire Wire Line
+	8100 6050 8100 6400
+Wire Wire Line
+	8100 6500 8100 6850
+Wire Wire Line
+	8100 6950 8100 7300
+Wire Wire Line
+	8100 7400 8100 7750
+Wire Wire Line
+	8100 7850 8100 8200
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5DE75466
+P 9300 6400
+F 0 "SW10" H 9300 6685 50  0000 C CNN
+F 1 "SW_Push" H 9300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 6600 50  0001 C CNN
+F 3 "~" H 9300 6600 50  0001 C CNN
+	1    9300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5DE7546C
+P 9650 6400
+F 0 "D9" H 9650 6184 50  0000 C CNN
+F 1 "D" H 9650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 6400 50  0001 C CNN
+F 3 "~" H 9650 6400 50  0001 C CNN
+	1    9650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5DE75472
+P 9300 6850
+F 0 "SW25" H 9300 7135 50  0000 C CNN
+F 1 "SW_Push" H 9300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 7050 50  0001 C CNN
+F 3 "~" H 9300 7050 50  0001 C CNN
+	1    9300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5DE75478
+P 9650 6850
+F 0 "D24" H 9650 6634 50  0000 C CNN
+F 1 "D" H 9650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 6850 50  0001 C CNN
+F 3 "~" H 9650 6850 50  0001 C CNN
+	1    9650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 5DE7547E
+P 9300 7300
+F 0 "SW40" H 9300 7585 50  0000 C CNN
+F 1 "SW_Push" H 9300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 7500 50  0001 C CNN
+F 3 "~" H 9300 7500 50  0001 C CNN
+	1    9300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5DE75484
+P 9650 7300
+F 0 "D39" H 9650 7084 50  0000 C CNN
+F 1 "D" H 9650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 7300 50  0001 C CNN
+F 3 "~" H 9650 7300 50  0001 C CNN
+	1    9650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 5DE7548A
+P 9300 7750
+F 0 "SW55" H 9300 8035 50  0000 C CNN
+F 1 "SW_Push" H 9300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 7950 50  0001 C CNN
+F 3 "~" H 9300 7950 50  0001 C CNN
+	1    9300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 5DE75490
+P 9650 7750
+F 0 "D54" H 9650 7534 50  0000 C CNN
+F 1 "D" H 9650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 7750 50  0001 C CNN
+F 3 "~" H 9650 7750 50  0001 C CNN
+	1    9650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW70
+U 1 1 5DE75496
+P 9300 8200
+F 0 "SW70" H 9300 8485 50  0000 C CNN
+F 1 "SW_Push" H 9300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 8400 50  0001 C CNN
+F 3 "~" H 9300 8400 50  0001 C CNN
+	1    9300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D69
+U 1 1 5DE7549C
+P 9650 8200
+F 0 "D69" H 9650 7984 50  0000 C CNN
+F 1 "D" H 9650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 8200 50  0001 C CNN
+F 3 "~" H 9650 8200 50  0001 C CNN
+	1    9650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 6400 9800 6850
+Connection ~ 9800 6850
+Wire Wire Line
+	9800 6850 9800 7300
+Connection ~ 9800 7300
+Wire Wire Line
+	9800 7300 9800 7750
+Connection ~ 9800 7750
+Wire Wire Line
+	9800 7750 9800 8200
+Text GLabel 9800 5650 0    50   Input ~ 0
+COL9
+Wire Wire Line
+	9800 5650 9800 6400
+Connection ~ 9800 6400
+Wire Wire Line
+	9100 6050 9100 6400
+Wire Wire Line
+	9100 6500 9100 6850
+Wire Wire Line
+	9100 6950 9100 7300
+Wire Wire Line
+	9100 7400 9100 7750
+Wire Wire Line
+	9100 7850 9100 8200
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5DE85116
+P 10300 6400
+F 0 "SW11" H 10300 6685 50  0000 C CNN
+F 1 "SW_Push" H 10300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 6600 50  0001 C CNN
+F 3 "~" H 10300 6600 50  0001 C CNN
+	1    10300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5DE8511C
+P 10650 6400
+F 0 "D10" H 10650 6184 50  0000 C CNN
+F 1 "D" H 10650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 6400 50  0001 C CNN
+F 3 "~" H 10650 6400 50  0001 C CNN
+	1    10650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5DE85122
+P 10300 6850
+F 0 "SW26" H 10300 7135 50  0000 C CNN
+F 1 "SW_Push" H 10300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 7050 50  0001 C CNN
+F 3 "~" H 10300 7050 50  0001 C CNN
+	1    10300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5DE85128
+P 10650 6850
+F 0 "D25" H 10650 6634 50  0000 C CNN
+F 1 "D" H 10650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 6850 50  0001 C CNN
+F 3 "~" H 10650 6850 50  0001 C CNN
+	1    10650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 5DE8512E
+P 10300 7300
+F 0 "SW41" H 10300 7585 50  0000 C CNN
+F 1 "SW_Push" H 10300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 7500 50  0001 C CNN
+F 3 "~" H 10300 7500 50  0001 C CNN
+	1    10300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5DE85134
+P 10650 7300
+F 0 "D40" H 10650 7084 50  0000 C CNN
+F 1 "D" H 10650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 7300 50  0001 C CNN
+F 3 "~" H 10650 7300 50  0001 C CNN
+	1    10650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 5DE8513A
+P 10300 7750
+F 0 "SW56" H 10300 8035 50  0000 C CNN
+F 1 "SW_Push" H 10300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 7950 50  0001 C CNN
+F 3 "~" H 10300 7950 50  0001 C CNN
+	1    10300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 5DE85140
+P 10650 7750
+F 0 "D55" H 10650 7534 50  0000 C CNN
+F 1 "D" H 10650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 7750 50  0001 C CNN
+F 3 "~" H 10650 7750 50  0001 C CNN
+	1    10650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW71
+U 1 1 5DE85146
+P 10300 8200
+F 0 "SW71" H 10300 8485 50  0000 C CNN
+F 1 "SW_Push" H 10300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 8400 50  0001 C CNN
+F 3 "~" H 10300 8400 50  0001 C CNN
+	1    10300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D70
+U 1 1 5DE8514C
+P 10650 8200
+F 0 "D70" H 10650 7984 50  0000 C CNN
+F 1 "D" H 10650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 8200 50  0001 C CNN
+F 3 "~" H 10650 8200 50  0001 C CNN
+	1    10650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10800 6400 10800 6850
+Connection ~ 10800 6850
+Wire Wire Line
+	10800 6850 10800 7300
+Connection ~ 10800 7300
+Wire Wire Line
+	10800 7300 10800 7750
+Connection ~ 10800 7750
+Wire Wire Line
+	10800 7750 10800 8200
+Text GLabel 10800 5650 0    50   Input ~ 0
+COL10
+Wire Wire Line
+	10800 5650 10800 6400
+Connection ~ 10800 6400
+Wire Wire Line
+	10100 6050 10100 6400
+Wire Wire Line
+	10100 6500 10100 6850
+Wire Wire Line
+	10100 6950 10100 7300
+Wire Wire Line
+	10100 7400 10100 7750
+Wire Wire Line
+	10100 7850 10100 8200
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5DE97451
+P 11300 6400
+F 0 "SW12" H 11300 6685 50  0000 C CNN
+F 1 "SW_Push" H 11300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 6600 50  0001 C CNN
+F 3 "~" H 11300 6600 50  0001 C CNN
+	1    11300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5DE97457
+P 11650 6400
+F 0 "D11" H 11650 6184 50  0000 C CNN
+F 1 "D" H 11650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 6400 50  0001 C CNN
+F 3 "~" H 11650 6400 50  0001 C CNN
+	1    11650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5DE9745D
+P 11300 6850
+F 0 "SW27" H 11300 7135 50  0000 C CNN
+F 1 "SW_Push" H 11300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 7050 50  0001 C CNN
+F 3 "~" H 11300 7050 50  0001 C CNN
+	1    11300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5DE97463
+P 11650 6850
+F 0 "D26" H 11650 6634 50  0000 C CNN
+F 1 "D" H 11650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 6850 50  0001 C CNN
+F 3 "~" H 11650 6850 50  0001 C CNN
+	1    11650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 5DE97469
+P 11300 7300
+F 0 "SW42" H 11300 7585 50  0000 C CNN
+F 1 "SW_Push" H 11300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 7500 50  0001 C CNN
+F 3 "~" H 11300 7500 50  0001 C CNN
+	1    11300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5DE9746F
+P 11650 7300
+F 0 "D41" H 11650 7084 50  0000 C CNN
+F 1 "D" H 11650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 7300 50  0001 C CNN
+F 3 "~" H 11650 7300 50  0001 C CNN
+	1    11650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW57
+U 1 1 5DE97475
+P 11300 7750
+F 0 "SW57" H 11300 8035 50  0000 C CNN
+F 1 "SW_Push" H 11300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 7950 50  0001 C CNN
+F 3 "~" H 11300 7950 50  0001 C CNN
+	1    11300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 5DE9747B
+P 11650 7750
+F 0 "D56" H 11650 7534 50  0000 C CNN
+F 1 "D" H 11650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 7750 50  0001 C CNN
+F 3 "~" H 11650 7750 50  0001 C CNN
+	1    11650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW72
+U 1 1 5DE97481
+P 11300 8200
+F 0 "SW72" H 11300 8485 50  0000 C CNN
+F 1 "SW_Push" H 11300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 8400 50  0001 C CNN
+F 3 "~" H 11300 8400 50  0001 C CNN
+	1    11300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 5DE97487
+P 11650 8200
+F 0 "D71" H 11650 7984 50  0000 C CNN
+F 1 "D" H 11650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 8200 50  0001 C CNN
+F 3 "~" H 11650 8200 50  0001 C CNN
+	1    11650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11800 6400 11800 6850
+Connection ~ 11800 6850
+Wire Wire Line
+	11800 6850 11800 7300
+Connection ~ 11800 7300
+Wire Wire Line
+	11800 7300 11800 7750
+Connection ~ 11800 7750
+Wire Wire Line
+	11800 7750 11800 8200
+Text GLabel 11800 5650 0    50   Input ~ 0
+COL11
+Wire Wire Line
+	11800 5650 11800 6400
+Connection ~ 11800 6400
+Wire Wire Line
+	11100 6050 11100 6400
+Wire Wire Line
+	11100 6500 11100 6850
+Wire Wire Line
+	11100 6950 11100 7300
+Wire Wire Line
+	11100 7400 11100 7750
+Wire Wire Line
+	11100 7850 11100 8200
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5DEAB7BE
+P 12300 6400
+F 0 "SW13" H 12300 6685 50  0000 C CNN
+F 1 "SW_Push" H 12300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 6600 50  0001 C CNN
+F 3 "~" H 12300 6600 50  0001 C CNN
+	1    12300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5DEAB7C4
+P 12650 6400
+F 0 "D12" H 12650 6184 50  0000 C CNN
+F 1 "D" H 12650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 6400 50  0001 C CNN
+F 3 "~" H 12650 6400 50  0001 C CNN
+	1    12650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5DEAB7CA
+P 12300 6850
+F 0 "SW28" H 12300 7135 50  0000 C CNN
+F 1 "SW_Push" H 12300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 7050 50  0001 C CNN
+F 3 "~" H 12300 7050 50  0001 C CNN
+	1    12300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5DEAB7D0
+P 12650 6850
+F 0 "D27" H 12650 6634 50  0000 C CNN
+F 1 "D" H 12650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 6850 50  0001 C CNN
+F 3 "~" H 12650 6850 50  0001 C CNN
+	1    12650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 5DEAB7D6
+P 12300 7300
+F 0 "SW43" H 12300 7585 50  0000 C CNN
+F 1 "SW_Push" H 12300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 7500 50  0001 C CNN
+F 3 "~" H 12300 7500 50  0001 C CNN
+	1    12300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5DEAB7DC
+P 12650 7300
+F 0 "D42" H 12650 7084 50  0000 C CNN
+F 1 "D" H 12650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 7300 50  0001 C CNN
+F 3 "~" H 12650 7300 50  0001 C CNN
+	1    12650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW58
+U 1 1 5DEAB7E2
+P 12300 7750
+F 0 "SW58" H 12300 8035 50  0000 C CNN
+F 1 "SW_Push" H 12300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 7950 50  0001 C CNN
+F 3 "~" H 12300 7950 50  0001 C CNN
+	1    12300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 5DEAB7E8
+P 12650 7750
+F 0 "D57" H 12650 7534 50  0000 C CNN
+F 1 "D" H 12650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 7750 50  0001 C CNN
+F 3 "~" H 12650 7750 50  0001 C CNN
+	1    12650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW73
+U 1 1 5DEAB7EE
+P 12300 8200
+F 0 "SW73" H 12300 8485 50  0000 C CNN
+F 1 "SW_Push" H 12300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 8400 50  0001 C CNN
+F 3 "~" H 12300 8400 50  0001 C CNN
+	1    12300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D72
+U 1 1 5DEAB7F4
+P 12650 8200
+F 0 "D72" H 12650 7984 50  0000 C CNN
+F 1 "D" H 12650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 8200 50  0001 C CNN
+F 3 "~" H 12650 8200 50  0001 C CNN
+	1    12650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12800 6400 12800 6850
+Connection ~ 12800 6850
+Wire Wire Line
+	12800 6850 12800 7300
+Connection ~ 12800 7300
+Wire Wire Line
+	12800 7300 12800 7750
+Connection ~ 12800 7750
+Wire Wire Line
+	12800 7750 12800 8200
+Text GLabel 12800 5650 0    50   Input ~ 0
+COL12
+Wire Wire Line
+	12800 5650 12800 6400
+Connection ~ 12800 6400
+Wire Wire Line
+	12100 6050 12100 6400
+Wire Wire Line
+	12100 6500 12100 6850
+Wire Wire Line
+	12100 6950 12100 7300
+Wire Wire Line
+	12100 7400 12100 7750
+Wire Wire Line
+	12100 7850 12100 8200
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5DEC75EF
+P 13300 6400
+F 0 "SW14" H 13300 6685 50  0000 C CNN
+F 1 "SW_Push" H 13300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 6600 50  0001 C CNN
+F 3 "~" H 13300 6600 50  0001 C CNN
+	1    13300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5DEC75F5
+P 13650 6400
+F 0 "D13" H 13650 6184 50  0000 C CNN
+F 1 "D" H 13650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 6400 50  0001 C CNN
+F 3 "~" H 13650 6400 50  0001 C CNN
+	1    13650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5DEC75FB
+P 13300 6850
+F 0 "SW29" H 13300 7135 50  0000 C CNN
+F 1 "SW_Push" H 13300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 7050 50  0001 C CNN
+F 3 "~" H 13300 7050 50  0001 C CNN
+	1    13300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5DEC7601
+P 13650 6850
+F 0 "D28" H 13650 6634 50  0000 C CNN
+F 1 "D" H 13650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 6850 50  0001 C CNN
+F 3 "~" H 13650 6850 50  0001 C CNN
+	1    13650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 5DEC7607
+P 13300 7300
+F 0 "SW44" H 13300 7585 50  0000 C CNN
+F 1 "SW_Push" H 13300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 7500 50  0001 C CNN
+F 3 "~" H 13300 7500 50  0001 C CNN
+	1    13300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5DEC760D
+P 13650 7300
+F 0 "D43" H 13650 7084 50  0000 C CNN
+F 1 "D" H 13650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 7300 50  0001 C CNN
+F 3 "~" H 13650 7300 50  0001 C CNN
+	1    13650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW59
+U 1 1 5DEC7613
+P 13300 7750
+F 0 "SW59" H 13300 8035 50  0000 C CNN
+F 1 "SW_Push" H 13300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 7950 50  0001 C CNN
+F 3 "~" H 13300 7950 50  0001 C CNN
+	1    13300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 5DEC7619
+P 13650 7750
+F 0 "D58" H 13650 7534 50  0000 C CNN
+F 1 "D" H 13650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 7750 50  0001 C CNN
+F 3 "~" H 13650 7750 50  0001 C CNN
+	1    13650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW74
+U 1 1 5DEC761F
+P 13300 8200
+F 0 "SW74" H 13300 8485 50  0000 C CNN
+F 1 "SW_Push" H 13300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 8400 50  0001 C CNN
+F 3 "~" H 13300 8400 50  0001 C CNN
+	1    13300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D73
+U 1 1 5DEC7625
+P 13650 8200
+F 0 "D73" H 13650 7984 50  0000 C CNN
+F 1 "D" H 13650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 8200 50  0001 C CNN
+F 3 "~" H 13650 8200 50  0001 C CNN
+	1    13650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13800 6400 13800 6850
+Connection ~ 13800 6850
+Wire Wire Line
+	13800 6850 13800 7300
+Connection ~ 13800 7300
+Wire Wire Line
+	13800 7300 13800 7750
+Connection ~ 13800 7750
+Wire Wire Line
+	13800 7750 13800 8200
+Text GLabel 13800 5650 0    50   Input ~ 0
+COL13
+Wire Wire Line
+	13800 5650 13800 6400
+Connection ~ 13800 6400
+Wire Wire Line
+	13100 6050 13100 6400
+Wire Wire Line
+	13100 6500 13100 6850
+Wire Wire Line
+	13100 6950 13100 7300
+Wire Wire Line
+	13100 7400 13100 7750
+Wire Wire Line
+	13100 7850 13100 8200
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5DEE2E81
+P 14300 6400
+F 0 "SW15" H 14300 6685 50  0000 C CNN
+F 1 "SW_Push" H 14300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 6600 50  0001 C CNN
+F 3 "~" H 14300 6600 50  0001 C CNN
+	1    14300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5DEE2E87
+P 14650 6400
+F 0 "D14" H 14650 6184 50  0000 C CNN
+F 1 "D" H 14650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 6400 50  0001 C CNN
+F 3 "~" H 14650 6400 50  0001 C CNN
+	1    14650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5DEE2E8D
+P 14300 6850
+F 0 "SW30" H 14300 7135 50  0000 C CNN
+F 1 "SW_Push" H 14300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 7050 50  0001 C CNN
+F 3 "~" H 14300 7050 50  0001 C CNN
+	1    14300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5DEE2E93
+P 14650 6850
+F 0 "D29" H 14650 6634 50  0000 C CNN
+F 1 "D" H 14650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 6850 50  0001 C CNN
+F 3 "~" H 14650 6850 50  0001 C CNN
+	1    14650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5DEE2E99
+P 14300 7300
+F 0 "SW45" H 14300 7585 50  0000 C CNN
+F 1 "SW_Push" H 14300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 7500 50  0001 C CNN
+F 3 "~" H 14300 7500 50  0001 C CNN
+	1    14300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5DEE2E9F
+P 14650 7300
+F 0 "D44" H 14650 7084 50  0000 C CNN
+F 1 "D" H 14650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 7300 50  0001 C CNN
+F 3 "~" H 14650 7300 50  0001 C CNN
+	1    14650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW60
+U 1 1 5DEE2EA5
+P 14300 7750
+F 0 "SW60" H 14300 8035 50  0000 C CNN
+F 1 "SW_Push" H 14300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 7950 50  0001 C CNN
+F 3 "~" H 14300 7950 50  0001 C CNN
+	1    14300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 5DEE2EAB
+P 14650 7750
+F 0 "D59" H 14650 7534 50  0000 C CNN
+F 1 "D" H 14650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 7750 50  0001 C CNN
+F 3 "~" H 14650 7750 50  0001 C CNN
+	1    14650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW75
+U 1 1 5DEE2EB1
+P 14300 8200
+F 0 "SW75" H 14300 8485 50  0000 C CNN
+F 1 "SW_Push" H 14300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 8400 50  0001 C CNN
+F 3 "~" H 14300 8400 50  0001 C CNN
+	1    14300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D74
+U 1 1 5DEE2EB7
+P 14650 8200
+F 0 "D74" H 14650 7984 50  0000 C CNN
+F 1 "D" H 14650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 8200 50  0001 C CNN
+F 3 "~" H 14650 8200 50  0001 C CNN
+	1    14650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14800 6400 14800 6850
+Connection ~ 14800 6850
+Wire Wire Line
+	14800 6850 14800 7300
+Connection ~ 14800 7300
+Wire Wire Line
+	14800 7300 14800 7750
+Connection ~ 14800 7750
+Wire Wire Line
+	14800 7750 14800 8200
+Text GLabel 14800 5650 0    50   Input ~ 0
+COL14
+Wire Wire Line
+	14800 5650 14800 6400
+Connection ~ 14800 6400
+Wire Wire Line
+	14100 6050 14100 6400
+Wire Wire Line
+	14100 6500 14100 6850
+Wire Wire Line
+	14100 6950 14100 7300
+Wire Wire Line
+	14100 7400 14100 7750
+Wire Wire Line
+	14100 7850 14100 8200
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5DEFF80A
+P 15300 6400
+F 0 "SW16" H 15300 6685 50  0000 C CNN
+F 1 "SW_Push" H 15300 6594 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 6600 50  0001 C CNN
+F 3 "~" H 15300 6600 50  0001 C CNN
+	1    15300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5DEFF810
+P 15650 6400
+F 0 "D15" H 15650 6184 50  0000 C CNN
+F 1 "D" H 15650 6275 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 6400 50  0001 C CNN
+F 3 "~" H 15650 6400 50  0001 C CNN
+	1    15650 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5DEFF816
+P 15300 6850
+F 0 "SW31" H 15300 7135 50  0000 C CNN
+F 1 "SW_Push" H 15300 7044 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 7050 50  0001 C CNN
+F 3 "~" H 15300 7050 50  0001 C CNN
+	1    15300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5DEFF81C
+P 15650 6850
+F 0 "D30" H 15650 6634 50  0000 C CNN
+F 1 "D" H 15650 6725 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 6850 50  0001 C CNN
+F 3 "~" H 15650 6850 50  0001 C CNN
+	1    15650 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 5DEFF822
+P 15300 7300
+F 0 "SW46" H 15300 7585 50  0000 C CNN
+F 1 "SW_Push" H 15300 7494 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 7500 50  0001 C CNN
+F 3 "~" H 15300 7500 50  0001 C CNN
+	1    15300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5DEFF828
+P 15650 7300
+F 0 "D45" H 15650 7084 50  0000 C CNN
+F 1 "D" H 15650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 7300 50  0001 C CNN
+F 3 "~" H 15650 7300 50  0001 C CNN
+	1    15650 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW61
+U 1 1 5DEFF82E
+P 15300 7750
+F 0 "SW61" H 15300 8035 50  0000 C CNN
+F 1 "SW_Push" H 15300 7944 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 7950 50  0001 C CNN
+F 3 "~" H 15300 7950 50  0001 C CNN
+	1    15300 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 5DEFF834
+P 15650 7750
+F 0 "D60" H 15650 7534 50  0000 C CNN
+F 1 "D" H 15650 7625 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 7750 50  0001 C CNN
+F 3 "~" H 15650 7750 50  0001 C CNN
+	1    15650 7750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW76
+U 1 1 5DEFF83A
+P 15300 8200
+F 0 "SW76" H 15300 8485 50  0000 C CNN
+F 1 "SW_Push" H 15300 8394 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 8400 50  0001 C CNN
+F 3 "~" H 15300 8400 50  0001 C CNN
+	1    15300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D75
+U 1 1 5DEFF840
+P 15650 8200
+F 0 "D75" H 15650 7984 50  0000 C CNN
+F 1 "D" H 15650 8075 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 8200 50  0001 C CNN
+F 3 "~" H 15650 8200 50  0001 C CNN
+	1    15650 8200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15800 6400 15800 6850
+Connection ~ 15800 6850
+Wire Wire Line
+	15800 6850 15800 7300
+Connection ~ 15800 7300
+Wire Wire Line
+	15800 7300 15800 7750
+Connection ~ 15800 7750
+Wire Wire Line
+	15800 7750 15800 8200
+Text GLabel 15800 5650 0    50   Input ~ 0
+COL15
+Wire Wire Line
+	15800 5650 15800 6400
+Connection ~ 15800 6400
+Wire Wire Line
+	15100 6050 15100 6400
+Wire Wire Line
+	15100 6500 15100 6850
+Wire Wire Line
+	15100 6950 15100 7300
+Wire Wire Line
+	15100 7400 15100 7750
+Wire Wire Line
+	15100 7850 15100 8200
+Wire Wire Line
+	1100 6050 2100 6050
+Connection ~ 1100 6050
+Connection ~ 2100 6050
+Wire Wire Line
+	2100 6050 3100 6050
+Connection ~ 3100 6050
+Wire Wire Line
+	3100 6050 4100 6050
+Connection ~ 4100 6050
+Wire Wire Line
+	4100 6050 5100 6050
+Connection ~ 5100 6050
+Wire Wire Line
+	5100 6050 6100 6050
+Connection ~ 6100 6050
+Wire Wire Line
+	6100 6050 7100 6050
+Connection ~ 7100 6050
+Wire Wire Line
+	7100 6050 8100 6050
+Connection ~ 8100 6050
+Wire Wire Line
+	8100 6050 9100 6050
+Connection ~ 9100 6050
+Wire Wire Line
+	9100 6050 10100 6050
+Connection ~ 10100 6050
+Wire Wire Line
+	10100 6050 11100 6050
+Wire Wire Line
+	11100 6050 12100 6050
+Connection ~ 11100 6050
+Connection ~ 12100 6050
+Wire Wire Line
+	12100 6050 13100 6050
+Connection ~ 13100 6050
+Wire Wire Line
+	13100 6050 14100 6050
+Connection ~ 14100 6050
+Wire Wire Line
+	14100 6050 15100 6050
+Wire Wire Line
+	1100 6500 2100 6500
+Connection ~ 1100 6500
+Connection ~ 2100 6500
+Wire Wire Line
+	2100 6500 3100 6500
+Connection ~ 3100 6500
+Wire Wire Line
+	3100 6500 4100 6500
+Connection ~ 4100 6500
+Wire Wire Line
+	4100 6500 5100 6500
+Connection ~ 5100 6500
+Wire Wire Line
+	5100 6500 6100 6500
+Connection ~ 6100 6500
+Wire Wire Line
+	6100 6500 7100 6500
+Connection ~ 7100 6500
+Wire Wire Line
+	7100 6500 8100 6500
+Connection ~ 8100 6500
+Wire Wire Line
+	8100 6500 9100 6500
+Connection ~ 9100 6500
+Wire Wire Line
+	9100 6500 10100 6500
+Connection ~ 10100 6500
+Wire Wire Line
+	10100 6500 11100 6500
+Connection ~ 11100 6500
+Wire Wire Line
+	11100 6500 12100 6500
+Connection ~ 12100 6500
+Wire Wire Line
+	12100 6500 13100 6500
+Connection ~ 13100 6500
+Wire Wire Line
+	13100 6500 14100 6500
+Connection ~ 14100 6500
+Wire Wire Line
+	14100 6500 15100 6500
+Wire Wire Line
+	1100 6950 2100 6950
+Connection ~ 1100 6950
+Connection ~ 2100 6950
+Wire Wire Line
+	2100 6950 3100 6950
+Connection ~ 3100 6950
+Wire Wire Line
+	3100 6950 4100 6950
+Connection ~ 4100 6950
+Wire Wire Line
+	4100 6950 5100 6950
+Connection ~ 5100 6950
+Wire Wire Line
+	5100 6950 6100 6950
+Connection ~ 6100 6950
+Wire Wire Line
+	6100 6950 7100 6950
+Connection ~ 7100 6950
+Wire Wire Line
+	7100 6950 8100 6950
+Connection ~ 8100 6950
+Wire Wire Line
+	8100 6950 9100 6950
+Connection ~ 9100 6950
+Wire Wire Line
+	9100 6950 10100 6950
+Connection ~ 10100 6950
+Wire Wire Line
+	10100 6950 11100 6950
+Connection ~ 11100 6950
+Wire Wire Line
+	11100 6950 12100 6950
+Connection ~ 12100 6950
+Wire Wire Line
+	12100 6950 13100 6950
+Connection ~ 13100 6950
+Wire Wire Line
+	13100 6950 14100 6950
+Connection ~ 14100 6950
+Wire Wire Line
+	14100 6950 15100 6950
+Wire Wire Line
+	1100 7400 2100 7400
+Connection ~ 1100 7400
+Connection ~ 2100 7400
+Wire Wire Line
+	2100 7400 3100 7400
+Connection ~ 3100 7400
+Wire Wire Line
+	3100 7400 4100 7400
+Connection ~ 4100 7400
+Wire Wire Line
+	4100 7400 5100 7400
+Connection ~ 5100 7400
+Wire Wire Line
+	5100 7400 6100 7400
+Connection ~ 6100 7400
+Wire Wire Line
+	6100 7400 7100 7400
+Connection ~ 7100 7400
+Wire Wire Line
+	7100 7400 8100 7400
+Connection ~ 8100 7400
+Wire Wire Line
+	8100 7400 9100 7400
+Connection ~ 9100 7400
+Wire Wire Line
+	9100 7400 10100 7400
+Connection ~ 10100 7400
+Wire Wire Line
+	10100 7400 11100 7400
+Connection ~ 11100 7400
+Wire Wire Line
+	11100 7400 12100 7400
+Connection ~ 12100 7400
+Wire Wire Line
+	12100 7400 13100 7400
+Connection ~ 13100 7400
+Wire Wire Line
+	13100 7400 14100 7400
+Connection ~ 14100 7400
+Wire Wire Line
+	14100 7400 15100 7400
+Wire Wire Line
+	1100 7850 2100 7850
+Connection ~ 1100 7850
+Connection ~ 2100 7850
+Wire Wire Line
+	2100 7850 3100 7850
+Connection ~ 3100 7850
+Wire Wire Line
+	3100 7850 4100 7850
+Connection ~ 4100 7850
+Wire Wire Line
+	4100 7850 5100 7850
+Connection ~ 5100 7850
+Wire Wire Line
+	5100 7850 6100 7850
+Connection ~ 6100 7850
+Wire Wire Line
+	6100 7850 7100 7850
+Connection ~ 7100 7850
+Wire Wire Line
+	7100 7850 8100 7850
+Connection ~ 8100 7850
+Wire Wire Line
+	8100 7850 9100 7850
+Connection ~ 9100 7850
+Wire Wire Line
+	9100 7850 10100 7850
+Connection ~ 10100 7850
+Wire Wire Line
+	10100 7850 11100 7850
+Connection ~ 11100 7850
+Wire Wire Line
+	11100 7850 12100 7850
+Connection ~ 12100 7850
+Wire Wire Line
+	12100 7850 13100 7850
+Connection ~ 13100 7850
+Wire Wire Line
+	13100 7850 14100 7850
+Connection ~ 14100 7850
+Wire Wire Line
+	14100 7850 15100 7850
+$Comp
+L Connector:USB_B J2
+U 1 1 5E0D7BA5
+P 1600 2200
+F 0 "J2" H 1657 2667 50  0000 C CNN
+F 1 "USB_B" H 1657 2576 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1750 2150 50  0001 C CNN
+F 3 " ~" H 1750 2150 50  0001 C CNN
+	1    1600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2000 2200 2000
+Wire Wire Line
+	4100 900  4000 900 
+Wire Wire Line
+	2200 900  2200 2000
+Connection ~ 3900 900 
+Wire Wire Line
+	3900 900  2200 900 
+Connection ~ 4000 900 
+Wire Wire Line
+	4000 900  3900 900 
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2000 1900 2000
+$Comp
+L Device:Crystal_GND2 Y1
+U 1 1 5E120302
+P 2800 1500
+F 0 "Y1" H 2800 1768 50  0000 C CNN
+F 1 "16mhz" H 2800 1677 50  0000 C CNN
+F 2 "Crystal:Resonator-3Pin_W10.0mm_H5.0mm" H 2800 1500 50  0001 C CNN
+F 3 "~" H 2800 1500 50  0001 C CNN
+	1    2800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1400 2650 1400
+Wire Wire Line
+	2650 1400 2650 1500
+Wire Wire Line
+	3400 1600 2950 1600
+Wire Wire Line
+	2950 1600 2950 1500
+$Comp
+L Device:R R1
+U 1 1 5E155B5E
+P 2400 2150
+F 0 "R1" V 2193 2150 50  0000 C CNN
+F 1 "22ohms" V 2284 2150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2330 2150 50  0001 C CNN
+F 3 "~" H 2400 2150 50  0001 C CNN
+	1    2400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E158D11
+P 2800 2350
+F 0 "R2" V 2593 2350 50  0000 C CNN
+F 1 "22ohms" V 2684 2350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 2350 50  0001 C CNN
+F 3 "~" H 2800 2350 50  0001 C CNN
+	1    2800 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 2200 3400 2150
+Wire Wire Line
+	3400 2150 2550 2150
+Wire Wire Line
+	2250 2150 1900 2150
+Wire Wire Line
+	1900 2150 1900 2200
+Wire Wire Line
+	1900 2300 1900 2350
+Wire Wire Line
+	1900 2350 2650 2350
+Wire Wire Line
+	2950 2350 3400 2350
+Wire Wire Line
+	3400 2350 3400 2300
+$Comp
+L power:GND #PWR02
+U 1 1 5E1F43A0
+P 2800 1700
+F 0 "#PWR02" H 2800 1450 50  0001 C CNN
+F 1 "GND" H 2805 1527 50  0000 C CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2600 1600 4500
+Wire Wire Line
+	1600 4500 3900 4500
+$Comp
+L power:GND #PWR07
+U 1 1 5E2127C8
+P 4550 4500
+F 0 "#PWR07" H 4550 4250 50  0001 C CNN
+F 1 "GND" H 4555 4327 50  0000 C CNN
+F 2 "" H 4550 4500 50  0001 C CNN
+F 3 "" H 4550 4500 50  0001 C CNN
+	1    4550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E214658
+P 3100 2650
+F 0 "C1" H 3215 2696 50  0000 L CNN
+F 1 "1uF" H 3215 2605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3138 2500 50  0001 C CNN
+F 3 "~" H 3100 2650 50  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2500 3400 2500
+$Comp
+L power:GND #PWR04
+U 1 1 5E230BBF
+P 3100 2800
+F 0 "#PWR04" H 3100 2550 50  0001 C CNN
+F 1 "GND" H 3105 2627 50  0000 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "" H 3100 2800 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 1200 2    50   Input ~ 0
+ROW1
+Text GLabel 4800 1300 2    50   Input ~ 0
+ROW2
+Text GLabel 4800 1400 2    50   Input ~ 0
+ROW3
+Text GLabel 4800 1500 2    50   Input ~ 0
+ROW4
+Text GLabel 4800 1600 2    50   Input ~ 0
+ROW5
+Text GLabel 4800 1700 2    50   Input ~ 0
+ROW6
+Text GLabel 4800 1800 2    50   Input ~ 0
+ROW7
+Wire Wire Line
+	4600 1200 4800 1200
+Wire Wire Line
+	4600 1300 4800 1300
+Wire Wire Line
+	4600 1400 4800 1400
+Wire Wire Line
+	4600 1500 4800 1500
+Wire Wire Line
+	4600 1600 4800 1600
+Wire Wire Line
+	4600 1700 4800 1700
+Wire Wire Line
+	4600 1800 4800 1800
+$Comp
+L Device:R R4
+U 1 1 5E301745
+P 5400 3300
+F 0 "R4" V 5193 3300 50  0000 C CNN
+F 1 "10Kohms" V 5284 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 3300 50  0001 C CNN
+F 3 "~" H 5400 3300 50  0001 C CNN
+	1    5400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E33C404
+P 5700 3300
+F 0 "#PWR06" H 5700 3050 50  0001 C CNN
+F 1 "GND" H 5705 3127 50  0000 C CNN
+F 2 "" H 5700 3300 50  0001 C CNN
+F 3 "" H 5700 3300 50  0001 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3300 5700 3300
+Text GLabel 4800 2100 2    50   Input ~ 0
+COL1
+Text GLabel 4800 2200 2    50   Input ~ 0
+COL2
+Text GLabel 4800 2600 2    50   Input ~ 0
+COL3
+Text GLabel 4800 2700 2    50   Input ~ 0
+COL4
+Text GLabel 4800 2800 2    50   Input ~ 0
+COL5
+Text GLabel 4800 2900 2    50   Input ~ 0
+COL6
+Text GLabel 4800 3000 2    50   Input ~ 0
+COL7
+Text GLabel 4800 3100 2    50   Input ~ 0
+COL8
+Text GLabel 4800 3400 2    50   Input ~ 0
+COL9
+Text GLabel 4800 3600 2    50   Input ~ 0
+COL10
+Wire Wire Line
+	4600 3300 5250 3300
+Text GLabel 4800 3700 2    50   Input ~ 0
+COL11
+Text GLabel 4800 3800 2    50   Input ~ 0
+COL12
+Text GLabel 4800 3900 2    50   Input ~ 0
+COL13
+Text GLabel 4800 4000 2    50   Input ~ 0
+COL14
+Text GLabel 4800 4100 2    50   Input ~ 0
+COL15
+Connection ~ 14100 8350
+Connection ~ 13100 8350
+Connection ~ 12100 8350
+Connection ~ 11100 8350
+Connection ~ 10100 8350
+Connection ~ 9100 8350
+Connection ~ 8100 8350
+Connection ~ 7100 8350
+Connection ~ 6100 8350
+Connection ~ 5100 8350
+Connection ~ 4100 8350
+Connection ~ 3100 8350
+Connection ~ 2100 8350
+Connection ~ 1100 8350
+Connection ~ 15800 8200
+Connection ~ 14800 8200
+Connection ~ 13800 8200
+Connection ~ 12800 8200
+Connection ~ 11800 8200
+Connection ~ 10800 8200
+Connection ~ 9800 8200
+Connection ~ 8800 8200
+Connection ~ 7800 8200
+Connection ~ 6800 8200
+Connection ~ 5800 8200
+Connection ~ 4800 8200
+Connection ~ 3800 8200
+Connection ~ 2800 8200
+Wire Wire Line
+	1000 8350 1100 8350
+Connection ~ 1800 8200
+Wire Wire Line
+	14100 8350 15100 8350
+Wire Wire Line
+	13100 8350 14100 8350
+Wire Wire Line
+	12100 8350 13100 8350
+Wire Wire Line
+	11100 8350 12100 8350
+Wire Wire Line
+	10100 8350 11100 8350
+Wire Wire Line
+	9100 8350 10100 8350
+Wire Wire Line
+	8100 8350 9100 8350
+Wire Wire Line
+	7100 8350 8100 8350
+Wire Wire Line
+	6100 8350 7100 8350
+Wire Wire Line
+	5100 8350 6100 8350
+Wire Wire Line
+	4100 8350 5100 8350
+Wire Wire Line
+	3100 8350 4100 8350
+Wire Wire Line
+	2100 8350 3100 8350
+Wire Wire Line
+	1100 8350 2100 8350
+Wire Wire Line
+	14100 8800 15100 8800
+Connection ~ 14100 8800
+Wire Wire Line
+	13100 8800 14100 8800
+Connection ~ 13100 8800
+Wire Wire Line
+	12100 8800 13100 8800
+Connection ~ 12100 8800
+Wire Wire Line
+	11100 8800 12100 8800
+Connection ~ 11100 8800
+Wire Wire Line
+	10100 8800 11100 8800
+Connection ~ 10100 8800
+Wire Wire Line
+	9100 8800 10100 8800
+Connection ~ 9100 8800
+Wire Wire Line
+	8100 8800 9100 8800
+Connection ~ 8100 8800
+Wire Wire Line
+	7100 8800 8100 8800
+Connection ~ 7100 8800
+Wire Wire Line
+	6100 8800 7100 8800
+Connection ~ 6100 8800
+Wire Wire Line
+	5100 8800 6100 8800
+Connection ~ 5100 8800
+Wire Wire Line
+	4100 8800 5100 8800
+Connection ~ 4100 8800
+Wire Wire Line
+	3100 8800 4100 8800
+Connection ~ 3100 8800
+Wire Wire Line
+	2100 8800 3100 8800
+Connection ~ 2100 8800
+Connection ~ 1100 8800
+Wire Wire Line
+	1100 8800 2100 8800
+Wire Wire Line
+	15100 8800 15100 9150
+Wire Wire Line
+	15100 8350 15100 8700
+$Comp
+L Switch:SW_Push SW106
+U 1 1 5DEFF866
+P 15300 9150
+F 0 "SW106" H 15300 9435 50  0000 C CNN
+F 1 "SW_Push" H 15300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 9350 50  0001 C CNN
+F 3 "~" H 15300 9350 50  0001 C CNN
+	1    15300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D105
+U 1 1 5DEFF860
+P 15650 9150
+F 0 "D105" H 15650 8934 50  0000 C CNN
+F 1 "D" H 15650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 9150 50  0001 C CNN
+F 3 "~" H 15650 9150 50  0001 C CNN
+	1    15650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15800 8700 15800 9150
+Connection ~ 15800 8700
+Wire Wire Line
+	15800 8200 15800 8700
+$Comp
+L Device:D D90
+U 1 1 5DEFF84C
+P 15650 8700
+F 0 "D90" H 15650 8484 50  0000 C CNN
+F 1 "D" H 15650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 8700 50  0001 C CNN
+F 3 "~" H 15650 8700 50  0001 C CNN
+	1    15650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW91
+U 1 1 5DEFF846
+P 15300 8700
+F 0 "SW91" H 15300 8985 50  0000 C CNN
+F 1 "SW_Push" H 15300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 8900 50  0001 C CNN
+F 3 "~" H 15300 8900 50  0001 C CNN
+	1    15300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 8800 14100 9150
+Wire Wire Line
+	14100 8350 14100 8700
+$Comp
+L Switch:SW_Push SW105
+U 1 1 5DEE2EDD
+P 14300 9150
+F 0 "SW105" H 14300 9435 50  0000 C CNN
+F 1 "SW_Push" H 14300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 9350 50  0001 C CNN
+F 3 "~" H 14300 9350 50  0001 C CNN
+	1    14300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D104
+U 1 1 5DEE2ED7
+P 14650 9150
+F 0 "D104" H 14650 8934 50  0000 C CNN
+F 1 "D" H 14650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 9150 50  0001 C CNN
+F 3 "~" H 14650 9150 50  0001 C CNN
+	1    14650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14800 8700 14800 9150
+Connection ~ 14800 8700
+Wire Wire Line
+	14800 8200 14800 8700
+$Comp
+L Device:D D89
+U 1 1 5DEE2EC3
+P 14650 8700
+F 0 "D89" H 14650 8484 50  0000 C CNN
+F 1 "D" H 14650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 8700 50  0001 C CNN
+F 3 "~" H 14650 8700 50  0001 C CNN
+	1    14650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW90
+U 1 1 5DEE2EBD
+P 14300 8700
+F 0 "SW90" H 14300 8985 50  0000 C CNN
+F 1 "SW_Push" H 14300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 8900 50  0001 C CNN
+F 3 "~" H 14300 8900 50  0001 C CNN
+	1    14300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 8800 13100 9150
+Wire Wire Line
+	13100 8350 13100 8700
+$Comp
+L Switch:SW_Push SW104
+U 1 1 5DEC764B
+P 13300 9150
+F 0 "SW104" H 13300 9435 50  0000 C CNN
+F 1 "SW_Push" H 13300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 9350 50  0001 C CNN
+F 3 "~" H 13300 9350 50  0001 C CNN
+	1    13300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D103
+U 1 1 5DEC7645
+P 13650 9150
+F 0 "D103" H 13650 8934 50  0000 C CNN
+F 1 "D" H 13650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 9150 50  0001 C CNN
+F 3 "~" H 13650 9150 50  0001 C CNN
+	1    13650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13800 8700 13800 9150
+Connection ~ 13800 8700
+Wire Wire Line
+	13800 8200 13800 8700
+$Comp
+L Device:D D88
+U 1 1 5DEC7631
+P 13650 8700
+F 0 "D88" H 13650 8484 50  0000 C CNN
+F 1 "D" H 13650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 8700 50  0001 C CNN
+F 3 "~" H 13650 8700 50  0001 C CNN
+	1    13650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW89
+U 1 1 5DEC762B
+P 13300 8700
+F 0 "SW89" H 13300 8985 50  0000 C CNN
+F 1 "SW_Push" H 13300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 8900 50  0001 C CNN
+F 3 "~" H 13300 8900 50  0001 C CNN
+	1    13300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 8800 12100 9150
+Wire Wire Line
+	12100 8350 12100 8700
+$Comp
+L Switch:SW_Push SW103
+U 1 1 5DEAB81A
+P 12300 9150
+F 0 "SW103" H 12300 9435 50  0000 C CNN
+F 1 "SW_Push" H 12300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 9350 50  0001 C CNN
+F 3 "~" H 12300 9350 50  0001 C CNN
+	1    12300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D102
+U 1 1 5DEAB814
+P 12650 9150
+F 0 "D102" H 12650 8934 50  0000 C CNN
+F 1 "D" H 12650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 9150 50  0001 C CNN
+F 3 "~" H 12650 9150 50  0001 C CNN
+	1    12650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12800 8700 12800 9150
+Connection ~ 12800 8700
+Wire Wire Line
+	12800 8200 12800 8700
+$Comp
+L Device:D D87
+U 1 1 5DEAB800
+P 12650 8700
+F 0 "D87" H 12650 8484 50  0000 C CNN
+F 1 "D" H 12650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 8700 50  0001 C CNN
+F 3 "~" H 12650 8700 50  0001 C CNN
+	1    12650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW88
+U 1 1 5DEAB7FA
+P 12300 8700
+F 0 "SW88" H 12300 8985 50  0000 C CNN
+F 1 "SW_Push" H 12300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 8900 50  0001 C CNN
+F 3 "~" H 12300 8900 50  0001 C CNN
+	1    12300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 8800 11100 9150
+Wire Wire Line
+	11100 8350 11100 8700
+$Comp
+L Switch:SW_Push SW102
+U 1 1 5DE974AD
+P 11300 9150
+F 0 "SW102" H 11300 9435 50  0000 C CNN
+F 1 "SW_Push" H 11300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 9350 50  0001 C CNN
+F 3 "~" H 11300 9350 50  0001 C CNN
+	1    11300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D101
+U 1 1 5DE974A7
+P 11650 9150
+F 0 "D101" H 11650 8934 50  0000 C CNN
+F 1 "D" H 11650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 9150 50  0001 C CNN
+F 3 "~" H 11650 9150 50  0001 C CNN
+	1    11650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11800 8700 11800 9150
+Connection ~ 11800 8700
+Wire Wire Line
+	11800 8200 11800 8700
+$Comp
+L Device:D D86
+U 1 1 5DE97493
+P 11650 8700
+F 0 "D86" H 11650 8484 50  0000 C CNN
+F 1 "D" H 11650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 8700 50  0001 C CNN
+F 3 "~" H 11650 8700 50  0001 C CNN
+	1    11650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW87
+U 1 1 5DE9748D
+P 11300 8700
+F 0 "SW87" H 11300 8985 50  0000 C CNN
+F 1 "SW_Push" H 11300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 8900 50  0001 C CNN
+F 3 "~" H 11300 8900 50  0001 C CNN
+	1    11300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 8800 10100 9150
+Wire Wire Line
+	10100 8350 10100 8700
+$Comp
+L Switch:SW_Push SW101
+U 1 1 5DE85172
+P 10300 9150
+F 0 "SW101" H 10300 9435 50  0000 C CNN
+F 1 "SW_Push" H 10300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 9350 50  0001 C CNN
+F 3 "~" H 10300 9350 50  0001 C CNN
+	1    10300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D100
+U 1 1 5DE8516C
+P 10650 9150
+F 0 "D100" H 10650 8934 50  0000 C CNN
+F 1 "D" H 10650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 9150 50  0001 C CNN
+F 3 "~" H 10650 9150 50  0001 C CNN
+	1    10650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10800 8700 10800 9150
+Connection ~ 10800 8700
+Wire Wire Line
+	10800 8200 10800 8700
+$Comp
+L Device:D D85
+U 1 1 5DE85158
+P 10650 8700
+F 0 "D85" H 10650 8484 50  0000 C CNN
+F 1 "D" H 10650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 8700 50  0001 C CNN
+F 3 "~" H 10650 8700 50  0001 C CNN
+	1    10650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW86
+U 1 1 5DE85152
+P 10300 8700
+F 0 "SW86" H 10300 8985 50  0000 C CNN
+F 1 "SW_Push" H 10300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 8900 50  0001 C CNN
+F 3 "~" H 10300 8900 50  0001 C CNN
+	1    10300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 8800 9100 9150
+Wire Wire Line
+	9100 8350 9100 8700
+$Comp
+L Switch:SW_Push SW100
+U 1 1 5DE754C2
+P 9300 9150
+F 0 "SW100" H 9300 9435 50  0000 C CNN
+F 1 "SW_Push" H 9300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 9350 50  0001 C CNN
+F 3 "~" H 9300 9350 50  0001 C CNN
+	1    9300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D99
+U 1 1 5DE754BC
+P 9650 9150
+F 0 "D99" H 9650 8934 50  0000 C CNN
+F 1 "D" H 9650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 9150 50  0001 C CNN
+F 3 "~" H 9650 9150 50  0001 C CNN
+	1    9650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 8700 9800 9150
+Connection ~ 9800 8700
+Wire Wire Line
+	9800 8200 9800 8700
+$Comp
+L Device:D D84
+U 1 1 5DE754A8
+P 9650 8700
+F 0 "D84" H 9650 8484 50  0000 C CNN
+F 1 "D" H 9650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 8700 50  0001 C CNN
+F 3 "~" H 9650 8700 50  0001 C CNN
+	1    9650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW85
+U 1 1 5DE754A2
+P 9300 8700
+F 0 "SW85" H 9300 8985 50  0000 C CNN
+F 1 "SW_Push" H 9300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 8900 50  0001 C CNN
+F 3 "~" H 9300 8900 50  0001 C CNN
+	1    9300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 8800 8100 9150
+Wire Wire Line
+	8100 8350 8100 8700
+$Comp
+L Switch:SW_Push SW99
+U 1 1 5DE67F6A
+P 8300 9150
+F 0 "SW99" H 8300 9435 50  0000 C CNN
+F 1 "SW_Push" H 8300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 9350 50  0001 C CNN
+F 3 "~" H 8300 9350 50  0001 C CNN
+	1    8300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D98
+U 1 1 5DE67F64
+P 8650 9150
+F 0 "D98" H 8650 8934 50  0000 C CNN
+F 1 "D" H 8650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 9150 50  0001 C CNN
+F 3 "~" H 8650 9150 50  0001 C CNN
+	1    8650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 8700 8800 9150
+Connection ~ 8800 8700
+Wire Wire Line
+	8800 8200 8800 8700
+$Comp
+L Device:D D83
+U 1 1 5DE67F50
+P 8650 8700
+F 0 "D83" H 8650 8484 50  0000 C CNN
+F 1 "D" H 8650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 8700 50  0001 C CNN
+F 3 "~" H 8650 8700 50  0001 C CNN
+	1    8650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW84
+U 1 1 5DE67F4A
+P 8300 8700
+F 0 "SW84" H 8300 8985 50  0000 C CNN
+F 1 "SW_Push" H 8300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 8900 50  0001 C CNN
+F 3 "~" H 8300 8900 50  0001 C CNN
+	1    8300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 8800 7100 9150
+Wire Wire Line
+	7100 8350 7100 8700
+$Comp
+L Switch:SW_Push SW98
+U 1 1 5DE5936B
+P 7300 9150
+F 0 "SW98" H 7300 9435 50  0000 C CNN
+F 1 "SW_Push" H 7300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 9350 50  0001 C CNN
+F 3 "~" H 7300 9350 50  0001 C CNN
+	1    7300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D97
+U 1 1 5DE59365
+P 7650 9150
+F 0 "D97" H 7650 8934 50  0000 C CNN
+F 1 "D" H 7650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 9150 50  0001 C CNN
+F 3 "~" H 7650 9150 50  0001 C CNN
+	1    7650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 8700 7800 9150
+Connection ~ 7800 8700
+Wire Wire Line
+	7800 8200 7800 8700
+$Comp
+L Device:D D82
+U 1 1 5DE59351
+P 7650 8700
+F 0 "D82" H 7650 8484 50  0000 C CNN
+F 1 "D" H 7650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 8700 50  0001 C CNN
+F 3 "~" H 7650 8700 50  0001 C CNN
+	1    7650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW83
+U 1 1 5DE5934B
+P 7300 8700
+F 0 "SW83" H 7300 8985 50  0000 C CNN
+F 1 "SW_Push" H 7300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 8900 50  0001 C CNN
+F 3 "~" H 7300 8900 50  0001 C CNN
+	1    7300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 8800 6100 9150
+Wire Wire Line
+	6100 8350 6100 8700
+$Comp
+L Switch:SW_Push SW97
+U 1 1 5DE4B7EC
+P 6300 9150
+F 0 "SW97" H 6300 9435 50  0000 C CNN
+F 1 "SW_Push" H 6300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 9350 50  0001 C CNN
+F 3 "~" H 6300 9350 50  0001 C CNN
+	1    6300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D96
+U 1 1 5DE4B7E6
+P 6650 9150
+F 0 "D96" H 6650 8934 50  0000 C CNN
+F 1 "D" H 6650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 9150 50  0001 C CNN
+F 3 "~" H 6650 9150 50  0001 C CNN
+	1    6650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 8700 6800 9150
+Connection ~ 6800 8700
+Wire Wire Line
+	6800 8200 6800 8700
+$Comp
+L Device:D D81
+U 1 1 5DE4B7D2
+P 6650 8700
+F 0 "D81" H 6650 8484 50  0000 C CNN
+F 1 "D" H 6650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 8700 50  0001 C CNN
+F 3 "~" H 6650 8700 50  0001 C CNN
+	1    6650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW82
+U 1 1 5DE4B7CC
+P 6300 8700
+F 0 "SW82" H 6300 8985 50  0000 C CNN
+F 1 "SW_Push" H 6300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 8900 50  0001 C CNN
+F 3 "~" H 6300 8900 50  0001 C CNN
+	1    6300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 8800 5100 9150
+Wire Wire Line
+	5100 8350 5100 8700
+$Comp
+L Switch:SW_Push SW96
+U 1 1 5DE425C2
+P 5300 9150
+F 0 "SW96" H 5300 9435 50  0000 C CNN
+F 1 "SW_Push" H 5300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 9350 50  0001 C CNN
+F 3 "~" H 5300 9350 50  0001 C CNN
+	1    5300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D95
+U 1 1 5DE425BC
+P 5650 9150
+F 0 "D95" H 5650 8934 50  0000 C CNN
+F 1 "D" H 5650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 9150 50  0001 C CNN
+F 3 "~" H 5650 9150 50  0001 C CNN
+	1    5650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 8700 5800 9150
+Connection ~ 5800 8700
+Wire Wire Line
+	5800 8200 5800 8700
+$Comp
+L Device:D D80
+U 1 1 5DE425A8
+P 5650 8700
+F 0 "D80" H 5650 8484 50  0000 C CNN
+F 1 "D" H 5650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 8700 50  0001 C CNN
+F 3 "~" H 5650 8700 50  0001 C CNN
+	1    5650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW81
+U 1 1 5DE425A2
+P 5300 8700
+F 0 "SW81" H 5300 8985 50  0000 C CNN
+F 1 "SW_Push" H 5300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 8900 50  0001 C CNN
+F 3 "~" H 5300 8900 50  0001 C CNN
+	1    5300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 8800 4100 9150
+Wire Wire Line
+	4100 8350 4100 8700
+$Comp
+L Switch:SW_Push SW95
+U 1 1 5DE360F6
+P 4300 9150
+F 0 "SW95" H 4300 9435 50  0000 C CNN
+F 1 "SW_Push" H 4300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 9350 50  0001 C CNN
+F 3 "~" H 4300 9350 50  0001 C CNN
+	1    4300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D94
+U 1 1 5DE360F0
+P 4650 9150
+F 0 "D94" H 4650 8934 50  0000 C CNN
+F 1 "D" H 4650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 9150 50  0001 C CNN
+F 3 "~" H 4650 9150 50  0001 C CNN
+	1    4650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 8700 4800 9150
+Connection ~ 4800 8700
+Wire Wire Line
+	4800 8200 4800 8700
+$Comp
+L Device:D D79
+U 1 1 5DE360DC
+P 4650 8700
+F 0 "D79" H 4650 8484 50  0000 C CNN
+F 1 "D" H 4650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 8700 50  0001 C CNN
+F 3 "~" H 4650 8700 50  0001 C CNN
+	1    4650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW80
+U 1 1 5DE360D6
+P 4300 8700
+F 0 "SW80" H 4300 8985 50  0000 C CNN
+F 1 "SW_Push" H 4300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 8900 50  0001 C CNN
+F 3 "~" H 4300 8900 50  0001 C CNN
+	1    4300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 8800 3100 9150
+Wire Wire Line
+	3100 8350 3100 8700
+$Comp
+L Switch:SW_Push SW94
+U 1 1 5DE2A47D
+P 3300 9150
+F 0 "SW94" H 3300 9435 50  0000 C CNN
+F 1 "SW_Push" H 3300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 9350 50  0001 C CNN
+F 3 "~" H 3300 9350 50  0001 C CNN
+	1    3300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D93
+U 1 1 5DE2A477
+P 3650 9150
+F 0 "D93" H 3650 8934 50  0000 C CNN
+F 1 "D" H 3650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 9150 50  0001 C CNN
+F 3 "~" H 3650 9150 50  0001 C CNN
+	1    3650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 8700 3800 9150
+Connection ~ 3800 8700
+Wire Wire Line
+	3800 8200 3800 8700
+$Comp
+L Device:D D78
+U 1 1 5DE2A463
+P 3650 8700
+F 0 "D78" H 3650 8484 50  0000 C CNN
+F 1 "D" H 3650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 8700 50  0001 C CNN
+F 3 "~" H 3650 8700 50  0001 C CNN
+	1    3650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW79
+U 1 1 5DE2A45D
+P 3300 8700
+F 0 "SW79" H 3300 8985 50  0000 C CNN
+F 1 "SW_Push" H 3300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 8900 50  0001 C CNN
+F 3 "~" H 3300 8900 50  0001 C CNN
+	1    3300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 8800 2100 9150
+Wire Wire Line
+	2100 8350 2100 8700
+$Comp
+L Switch:SW_Push SW93
+U 1 1 5DE1DB9A
+P 2300 9150
+F 0 "SW93" H 2300 9435 50  0000 C CNN
+F 1 "SW_Push" H 2300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 9350 50  0001 C CNN
+F 3 "~" H 2300 9350 50  0001 C CNN
+	1    2300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D92
+U 1 1 5DE1DB94
+P 2650 9150
+F 0 "D92" H 2650 8934 50  0000 C CNN
+F 1 "D" H 2650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 9150 50  0001 C CNN
+F 3 "~" H 2650 9150 50  0001 C CNN
+	1    2650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 8700 2800 9150
+Connection ~ 2800 8700
+Wire Wire Line
+	2800 8200 2800 8700
+$Comp
+L Device:D D77
+U 1 1 5DE1DB80
+P 2650 8700
+F 0 "D77" H 2650 8484 50  0000 C CNN
+F 1 "D" H 2650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 8700 50  0001 C CNN
+F 3 "~" H 2650 8700 50  0001 C CNN
+	1    2650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW78
+U 1 1 5DE1DB7A
+P 2300 8700
+F 0 "SW78" H 2300 8985 50  0000 C CNN
+F 1 "SW_Push" H 2300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 8900 50  0001 C CNN
+F 3 "~" H 2300 8900 50  0001 C CNN
+	1    2300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 8800 1100 9150
+Wire Wire Line
+	1000 8800 1100 8800
+Wire Wire Line
+	1100 8350 1100 8700
+$Comp
+L Switch:SW_Push SW92
+U 1 1 5DDFCBB4
+P 1300 9150
+F 0 "SW92" H 1300 9435 50  0000 C CNN
+F 1 "SW_Push" H 1300 9344 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 9350 50  0001 C CNN
+F 3 "~" H 1300 9350 50  0001 C CNN
+	1    1300 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D91
+U 1 1 5DDFCBBA
+P 1650 9150
+F 0 "D91" H 1650 8934 50  0000 C CNN
+F 1 "D" H 1650 9025 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 9150 50  0001 C CNN
+F 3 "~" H 1650 9150 50  0001 C CNN
+	1    1650 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 8700 1800 9150
+Connection ~ 1800 8700
+Text GLabel 1000 8800 0    50   Input ~ 0
+ROW7
+Wire Wire Line
+	1800 8200 1800 8700
+$Comp
+L Device:D D76
+U 1 1 5DDFCBAE
+P 1650 8700
+F 0 "D76" H 1650 8484 50  0000 C CNN
+F 1 "D" H 1650 8575 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 8700 50  0001 C CNN
+F 3 "~" H 1650 8700 50  0001 C CNN
+	1    1650 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW77
+U 1 1 5DDFCBA8
+P 1300 8700
+F 0 "SW77" H 1300 8985 50  0000 C CNN
+F 1 "SW_Push" H 1300 8894 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 8900 50  0001 C CNN
+F 3 "~" H 1300 8900 50  0001 C CNN
+	1    1300 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 9250 15100 9600
+$Comp
+L Switch:SW_Push SW121
+U 1 1 5E4CC09C
+P 15300 9600
+F 0 "SW121" H 15300 9885 50  0000 C CNN
+F 1 "SW_Push" H 15300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 15300 9800 50  0001 C CNN
+F 3 "~" H 15300 9800 50  0001 C CNN
+	1    15300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D120
+U 1 1 5E4CC0A2
+P 15650 9600
+F 0 "D120" H 15650 9384 50  0000 C CNN
+F 1 "D" H 15650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 15650 9600 50  0001 C CNN
+F 3 "~" H 15650 9600 50  0001 C CNN
+	1    15650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15800 9150 15800 9600
+Wire Wire Line
+	14100 9250 14100 9600
+$Comp
+L Switch:SW_Push SW120
+U 1 1 5E4CC0AA
+P 14300 9600
+F 0 "SW120" H 14300 9885 50  0000 C CNN
+F 1 "SW_Push" H 14300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 14300 9800 50  0001 C CNN
+F 3 "~" H 14300 9800 50  0001 C CNN
+	1    14300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D119
+U 1 1 5E4CC0B0
+P 14650 9600
+F 0 "D119" H 14650 9384 50  0000 C CNN
+F 1 "D" H 14650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 14650 9600 50  0001 C CNN
+F 3 "~" H 14650 9600 50  0001 C CNN
+	1    14650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14800 9150 14800 9600
+Wire Wire Line
+	13100 9250 13100 9600
+$Comp
+L Switch:SW_Push SW119
+U 1 1 5E4CC0B8
+P 13300 9600
+F 0 "SW119" H 13300 9885 50  0000 C CNN
+F 1 "SW_Push" H 13300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 13300 9800 50  0001 C CNN
+F 3 "~" H 13300 9800 50  0001 C CNN
+	1    13300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D118
+U 1 1 5E4CC0BE
+P 13650 9600
+F 0 "D118" H 13650 9384 50  0000 C CNN
+F 1 "D" H 13650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 13650 9600 50  0001 C CNN
+F 3 "~" H 13650 9600 50  0001 C CNN
+	1    13650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13800 9150 13800 9600
+Wire Wire Line
+	12100 9250 12100 9600
+$Comp
+L Switch:SW_Push SW118
+U 1 1 5E4CC0C6
+P 12300 9600
+F 0 "SW118" H 12300 9885 50  0000 C CNN
+F 1 "SW_Push" H 12300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 12300 9800 50  0001 C CNN
+F 3 "~" H 12300 9800 50  0001 C CNN
+	1    12300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D117
+U 1 1 5E4CC0CC
+P 12650 9600
+F 0 "D117" H 12650 9384 50  0000 C CNN
+F 1 "D" H 12650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 12650 9600 50  0001 C CNN
+F 3 "~" H 12650 9600 50  0001 C CNN
+	1    12650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12800 9150 12800 9600
+Wire Wire Line
+	11100 9250 11100 9600
+$Comp
+L Switch:SW_Push SW117
+U 1 1 5E4CC0D4
+P 11300 9600
+F 0 "SW117" H 11300 9885 50  0000 C CNN
+F 1 "SW_Push" H 11300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 11300 9800 50  0001 C CNN
+F 3 "~" H 11300 9800 50  0001 C CNN
+	1    11300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D116
+U 1 1 5E4CC0DA
+P 11650 9600
+F 0 "D116" H 11650 9384 50  0000 C CNN
+F 1 "D" H 11650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 11650 9600 50  0001 C CNN
+F 3 "~" H 11650 9600 50  0001 C CNN
+	1    11650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11800 9150 11800 9600
+Wire Wire Line
+	10100 9250 10100 9600
+$Comp
+L Switch:SW_Push SW116
+U 1 1 5E4CC0E2
+P 10300 9600
+F 0 "SW116" H 10300 9885 50  0000 C CNN
+F 1 "SW_Push" H 10300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 10300 9800 50  0001 C CNN
+F 3 "~" H 10300 9800 50  0001 C CNN
+	1    10300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D115
+U 1 1 5E4CC0E8
+P 10650 9600
+F 0 "D115" H 10650 9384 50  0000 C CNN
+F 1 "D" H 10650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 10650 9600 50  0001 C CNN
+F 3 "~" H 10650 9600 50  0001 C CNN
+	1    10650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10800 9150 10800 9600
+Wire Wire Line
+	9100 9250 9100 9600
+$Comp
+L Switch:SW_Push SW115
+U 1 1 5E4CC0F0
+P 9300 9600
+F 0 "SW115" H 9300 9885 50  0000 C CNN
+F 1 "SW_Push" H 9300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 9300 9800 50  0001 C CNN
+F 3 "~" H 9300 9800 50  0001 C CNN
+	1    9300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D114
+U 1 1 5E4CC0F6
+P 9650 9600
+F 0 "D114" H 9650 9384 50  0000 C CNN
+F 1 "D" H 9650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 9650 9600 50  0001 C CNN
+F 3 "~" H 9650 9600 50  0001 C CNN
+	1    9650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 9150 9800 9600
+Wire Wire Line
+	8100 9250 8100 9600
+$Comp
+L Switch:SW_Push SW114
+U 1 1 5E4CC0FE
+P 8300 9600
+F 0 "SW114" H 8300 9885 50  0000 C CNN
+F 1 "SW_Push" H 8300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 8300 9800 50  0001 C CNN
+F 3 "~" H 8300 9800 50  0001 C CNN
+	1    8300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D113
+U 1 1 5E4CC104
+P 8650 9600
+F 0 "D113" H 8650 9384 50  0000 C CNN
+F 1 "D" H 8650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 8650 9600 50  0001 C CNN
+F 3 "~" H 8650 9600 50  0001 C CNN
+	1    8650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 9150 8800 9600
+Wire Wire Line
+	7100 9250 7100 9600
+$Comp
+L Switch:SW_Push SW113
+U 1 1 5E4CC10C
+P 7300 9600
+F 0 "SW113" H 7300 9885 50  0000 C CNN
+F 1 "SW_Push" H 7300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 7300 9800 50  0001 C CNN
+F 3 "~" H 7300 9800 50  0001 C CNN
+	1    7300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D112
+U 1 1 5E4CC112
+P 7650 9600
+F 0 "D112" H 7650 9384 50  0000 C CNN
+F 1 "D" H 7650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 7650 9600 50  0001 C CNN
+F 3 "~" H 7650 9600 50  0001 C CNN
+	1    7650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 9150 7800 9600
+Wire Wire Line
+	6100 9250 6100 9600
+$Comp
+L Switch:SW_Push SW112
+U 1 1 5E4CC11A
+P 6300 9600
+F 0 "SW112" H 6300 9885 50  0000 C CNN
+F 1 "SW_Push" H 6300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 6300 9800 50  0001 C CNN
+F 3 "~" H 6300 9800 50  0001 C CNN
+	1    6300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D111
+U 1 1 5E4CC120
+P 6650 9600
+F 0 "D111" H 6650 9384 50  0000 C CNN
+F 1 "D" H 6650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 6650 9600 50  0001 C CNN
+F 3 "~" H 6650 9600 50  0001 C CNN
+	1    6650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 9150 6800 9600
+Wire Wire Line
+	5100 9250 5100 9600
+$Comp
+L Switch:SW_Push SW111
+U 1 1 5E4CC128
+P 5300 9600
+F 0 "SW111" H 5300 9885 50  0000 C CNN
+F 1 "SW_Push" H 5300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 5300 9800 50  0001 C CNN
+F 3 "~" H 5300 9800 50  0001 C CNN
+	1    5300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D110
+U 1 1 5E4CC12E
+P 5650 9600
+F 0 "D110" H 5650 9384 50  0000 C CNN
+F 1 "D" H 5650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5650 9600 50  0001 C CNN
+F 3 "~" H 5650 9600 50  0001 C CNN
+	1    5650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 9150 5800 9600
+Wire Wire Line
+	4100 9250 4100 9600
+$Comp
+L Switch:SW_Push SW110
+U 1 1 5E4CC136
+P 4300 9600
+F 0 "SW110" H 4300 9885 50  0000 C CNN
+F 1 "SW_Push" H 4300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 4300 9800 50  0001 C CNN
+F 3 "~" H 4300 9800 50  0001 C CNN
+	1    4300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D109
+U 1 1 5E4CC13C
+P 4650 9600
+F 0 "D109" H 4650 9384 50  0000 C CNN
+F 1 "D" H 4650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 9600 50  0001 C CNN
+F 3 "~" H 4650 9600 50  0001 C CNN
+	1    4650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 9150 4800 9600
+Wire Wire Line
+	3100 9250 3100 9600
+$Comp
+L Switch:SW_Push SW109
+U 1 1 5E4CC144
+P 3300 9600
+F 0 "SW109" H 3300 9885 50  0000 C CNN
+F 1 "SW_Push" H 3300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 3300 9800 50  0001 C CNN
+F 3 "~" H 3300 9800 50  0001 C CNN
+	1    3300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D108
+U 1 1 5E4CC14A
+P 3650 9600
+F 0 "D108" H 3650 9384 50  0000 C CNN
+F 1 "D" H 3650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3650 9600 50  0001 C CNN
+F 3 "~" H 3650 9600 50  0001 C CNN
+	1    3650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 9150 3800 9600
+Wire Wire Line
+	2100 9250 2100 9600
+$Comp
+L Switch:SW_Push SW108
+U 1 1 5E4CC152
+P 2300 9600
+F 0 "SW108" H 2300 9885 50  0000 C CNN
+F 1 "SW_Push" H 2300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 2300 9800 50  0001 C CNN
+F 3 "~" H 2300 9800 50  0001 C CNN
+	1    2300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D107
+U 1 1 5E4CC158
+P 2650 9600
+F 0 "D107" H 2650 9384 50  0000 C CNN
+F 1 "D" H 2650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2650 9600 50  0001 C CNN
+F 3 "~" H 2650 9600 50  0001 C CNN
+	1    2650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 9150 2800 9600
+Wire Wire Line
+	1100 9250 1100 9600
+$Comp
+L Switch:SW_Push SW107
+U 1 1 5E4CC160
+P 1300 9600
+F 0 "SW107" H 1300 9885 50  0000 C CNN
+F 1 "SW_Push" H 1300 9794 50  0000 C CNN
+F 2 "keyswitches.pretty-1:PG1350_socket" H 1300 9800 50  0001 C CNN
+F 3 "~" H 1300 9800 50  0001 C CNN
+	1    1300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D106
+U 1 1 5E4CC166
+P 1650 9600
+F 0 "D106" H 1650 9384 50  0000 C CNN
+F 1 "D" H 1650 9475 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 9600 50  0001 C CNN
+F 3 "~" H 1650 9600 50  0001 C CNN
+	1    1650 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 9150 1800 9600
+Text GLabel 1000 9250 0    50   Input ~ 0
+ROW8
+Wire Wire Line
+	1000 9250 1100 9250
+Connection ~ 1100 9250
+Wire Wire Line
+	1100 9250 2100 9250
+Connection ~ 2100 9250
+Wire Wire Line
+	2100 9250 3100 9250
+Connection ~ 3100 9250
+Wire Wire Line
+	3100 9250 4100 9250
+Connection ~ 4100 9250
+Wire Wire Line
+	4100 9250 5100 9250
+Connection ~ 5100 9250
+Wire Wire Line
+	5100 9250 6100 9250
+Connection ~ 6100 9250
+Wire Wire Line
+	6100 9250 7100 9250
+Connection ~ 7100 9250
+Wire Wire Line
+	7100 9250 8100 9250
+Connection ~ 8100 9250
+Wire Wire Line
+	8100 9250 9100 9250
+Connection ~ 9100 9250
+Wire Wire Line
+	9100 9250 10100 9250
+Connection ~ 10100 9250
+Wire Wire Line
+	10100 9250 11100 9250
+Connection ~ 11100 9250
+Wire Wire Line
+	11100 9250 12100 9250
+Connection ~ 12100 9250
+Wire Wire Line
+	12100 9250 13100 9250
+Connection ~ 13100 9250
+Wire Wire Line
+	13100 9250 14100 9250
+Connection ~ 14100 9250
+Wire Wire Line
+	14100 9250 15100 9250
+Text GLabel 4800 1900 2    50   Input ~ 0
+ROW8
+Wire Wire Line
+	4600 1900 4800 1900
+Wire Wire Line
+	4600 2100 4800 2100
+Wire Wire Line
+	4600 2200 4800 2200
+Wire Wire Line
+	4600 2600 4800 2600
+Wire Wire Line
+	4600 2700 4800 2700
+Wire Wire Line
+	4600 2800 4800 2800
+Wire Wire Line
+	4600 2900 4800 2900
+Wire Wire Line
+	4600 3000 4800 3000
+Wire Wire Line
+	4600 3100 4800 3100
+Wire Wire Line
+	4600 3400 4800 3400
+Wire Wire Line
+	4600 3600 4800 3600
+Wire Wire Line
+	4600 3700 4800 3700
+Wire Wire Line
+	4600 3800 4800 3800
+Wire Wire Line
+	4600 3900 4800 3900
+Wire Wire Line
+	4600 4000 4800 4000
+Wire Wire Line
+	4600 4100 4800 4100
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5E8FCCCB
+P 6850 1550
+F 0 "J1" H 6900 1867 50  0000 C CNN
+F 1 "ISP" H 6900 1776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6850 1550 50  0001 C CNN
+F 3 "~" H 6850 1550 50  0001 C CNN
+	1    6850 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 1450 0    50   Input ~ 0
+ROW4
+Text GLabel 6500 1550 0    50   Input ~ 0
+ROW2
+Text GLabel 6500 1650 0    50   Input ~ 0
+RESET
+Text GLabel 3250 1200 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	3250 1200 3400 1200
+Text GLabel 2000 900  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2000 900  2200 900 
+Connection ~ 2200 900 
+Text GLabel 7300 1450 2    50   Input ~ 0
+VCC
+Text GLabel 7300 1550 2    50   Input ~ 0
+ROW3
+$Comp
+L power:GND #PWR01
+U 1 1 5E96BDB8
+P 7300 1650
+F 0 "#PWR01" H 7300 1400 50  0001 C CNN
+F 1 "GND" H 7305 1477 50  0000 C CNN
+F 2 "" H 7300 1650 50  0001 C CNN
+F 3 "" H 7300 1650 50  0001 C CNN
+	1    7300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1450 6500 1450
+Wire Wire Line
+	6500 1550 6650 1550
+Wire Wire Line
+	6500 1650 6650 1650
+Wire Wire Line
+	7150 1450 7300 1450
+Wire Wire Line
+	7150 1550 7300 1550
+Wire Wire Line
+	7150 1650 7300 1650
+Wire Wire Line
+	4000 4500 4550 4500
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5EAE04DF
+P 6050 2400
+F 0 "J3" H 6022 2282 50  0000 R CNN
+F 1 "OLED" H 6022 2373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6050 2400 50  0001 C CNN
+F 3 "~" H 6050 2400 50  0001 C CNN
+	1    6050 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5EB9C495
+P 5700 2500
+F 0 "#PWR03" H 5700 2250 50  0001 C CNN
+F 1 "GND" H 5705 2327 50  0000 C CNN
+F 2 "" H 5700 2500 50  0001 C CNN
+F 3 "" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 2400 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	5700 2400 5850 2400
+Wire Wire Line
+	5700 2500 5850 2500
+Wire Wire Line
+	4600 2400 5150 2400
+Wire Wire Line
+	5150 2400 5150 2300
+Wire Wire Line
+	5150 2300 5850 2300
+Wire Wire Line
+	4600 2500 5350 2500
+Wire Wire Line
+	5350 2500 5350 2200
+Wire Wire Line
+	5350 2200 5850 2200
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EDB9251
+P 7250 2950
+F 0 "SW1" H 7250 3235 50  0000 C CNN
+F 1 "RESET BUTTON" H 7250 3144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 7250 3150 50  0001 C CNN
+F 3 "~" H 7250 3150 50  0001 C CNN
+	1    7250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5EDBB3A6
+P 7750 2800
+F 0 "R3" H 7820 2846 50  0000 L CNN
+F 1 "10Kohms" H 7820 2755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 2800 50  0001 C CNN
+F 3 "~" H 7750 2800 50  0001 C CNN
+	1    7750 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 2550 0    50   Input ~ 0
+VCC
+Text GLabel 8250 2950 2    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR05
+U 1 1 5EDBD9CB
+P 6850 3050
+F 0 "#PWR05" H 6850 2800 50  0001 C CNN
+F 1 "GND" H 6855 2877 50  0000 C CNN
+F 2 "" H 6850 3050 50  0001 C CNN
+F 3 "" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2550 7750 2650
+Wire Wire Line
+	8250 2950 7750 2950
+Connection ~ 7750 2950
+Wire Wire Line
+	7750 2950 7450 2950
+Wire Wire Line
+	7050 2950 6850 2950
+Wire Wire Line
+	6850 2950 6850 3050
+$EndSCHEMATC
