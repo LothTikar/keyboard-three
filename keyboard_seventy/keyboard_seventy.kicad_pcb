@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 6)
     (tracks 0)
     (zones 0)
     (modules 251)
@@ -11844,7 +11844,7 @@
   )
 
   (module Crystal:Resonator-3Pin_W10.0mm_H5.0mm (layer F.Cu) (tedit 5A0FD1B2) (tstamp 5DE3F83A)
-    (at 213 1 180)
+    (at 213 0 180)
     (descr "Ceramic Resomator/Filter 10.0x5.0mm^2 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 3 pins")
     (tags "THT ceramic resonator filter")
     (path /5E120302)
@@ -11887,7 +11887,7 @@
   )
 
   (module Package_QFP:TQFP-44_10x10mm_P0.8mm (layer F.Cu) (tedit 5A02F146) (tstamp 5DE3F822)
-    (at 211 -11)
+    (at 211 -13)
     (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /5DDD3425)
@@ -12186,7 +12186,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5DE3E897)
-    (at 270 -7)
+    (at 273 -14)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5E158D11)
@@ -12227,7 +12227,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 5DE3E880)
-    (at 273 -1)
+    (at 276 -8)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /5E155B5E)
@@ -12312,7 +12312,7 @@
   )
 
   (module Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal (layer F.Cu) (tedit 5AFE01FF) (tstamp 5DE3E851)
-    (at 281 -17 90)
+    (at 283 -21 90)
     (descr "USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf")
     (tags "USB-B receptacle horizontal through-hole")
     (path /5E0D7BA5)
@@ -12499,5 +12499,12 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 294 -37) (end 294 -36) (layer Edge.Cuts) (width 0.05) (tstamp 5DE0E779))
+  (gr_line (start 8 -37) (end 294 -37) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 8 -36) (end 8 -37) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 8 161) (end 8 -36) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 294 161) (end 8 161) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 294 161) (end 294 -36) (layer Edge.Cuts) (width 0.05))
 
 )
