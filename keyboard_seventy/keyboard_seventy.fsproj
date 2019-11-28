@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--******************************************-->
+<!--   File    : keyboard_seventy.fsproj      -->
+<!--   Format  : TopoR Project file           -->
+<!--   Version : 2                            -->
+<!--   Program : TopoR 32 Layer 7.0.18508     -->
+<!--   Date    : Wednesday, November 27, 2019 -->
+<!--   Time    : 20:13                        -->
+<!--******************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{463774AC-1517-43E7-BA19-A2C30D5F6EB9}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="false">
+         <File path=".\keyboard_seventy.fsx" isopened="0" dateChange="2019-11-27 19:13:52"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="true">
+         <File path=".\autoroute_191127200530\keyboard_seventy_11556-49s.fsb" isopened="0" dateChange="2019-11-27 20:13:07"/>
+      </Section>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="C:\Users\lotht\Documents\GitHub\keyboard-three\keyboard_seventy\keyboard_seventy.dsn"/>
+      </Specctra>
+   </Import>
+</Project>
